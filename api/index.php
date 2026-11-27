@@ -22,7 +22,6 @@ foreach ($tmpDirs as $dir) {
     }
 }
 
-// Arahkan cache bootstrap Laravel ke /tmp/bootstrap/cache
 $_ENV['APP_PACKAGES_CACHE'] = '/tmp/bootstrap/cache/packages.php';
 $_ENV['APP_SERVICES_CACHE'] = '/tmp/bootstrap/cache/services.php';
 $_ENV['APP_ROUTES_CACHE'] = '/tmp/bootstrap/cache/routes-v7.php';
@@ -31,6 +30,10 @@ $_SERVER['APP_PACKAGES_CACHE'] = '/tmp/bootstrap/cache/packages.php';
 $_SERVER['APP_SERVICES_CACHE'] = '/tmp/bootstrap/cache/services.php';
 $_SERVER['APP_ROUTES_CACHE'] = '/tmp/bootstrap/cache/routes-v7.php';
 $_SERVER['APP_CONFIG_CACHE'] = '/tmp/bootstrap/cache/config.php';
+
+// Paksa SCRIPT_NAME ke /index.php agar Laravel tidak memotong prefix /api dari REQUEST_URI
+$_SERVER['SCRIPT_NAME'] = '/index.php';
+$_SERVER['SCRIPT_FILENAME'] = __DIR__ . '/../public/index.php';
 
 require __DIR__ . '/../vendor/autoload.php';
 

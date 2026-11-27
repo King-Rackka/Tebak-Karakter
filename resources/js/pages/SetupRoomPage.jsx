@@ -450,7 +450,6 @@ export function SetupRoomPage({
               <label className="flex items-center gap-1.5 text-xs font-semibold text-gray-200">
                 <UsersGroupIcon className="w-3.5 h-3.5 text-gray-300" />
                 <span>Jumlah Pemain</span>
-                <InfoSmallIcon />
               </label>
               <div className="relative">
                 <select
@@ -476,7 +475,6 @@ export function SetupRoomPage({
               <label className="flex items-center gap-1.5 text-xs font-semibold text-gray-200">
                 <RefreshIcon className="w-3.5 h-3.5 text-gray-300" />
                 <span>Jumlah Ronde</span>
-                <InfoSmallIcon />
               </label>
               <div className="relative">
                 <select
@@ -500,7 +498,6 @@ export function SetupRoomPage({
               <label className="flex items-center gap-1.5 text-xs font-semibold text-gray-200">
                 <SignalBarsIcon className="w-3.5 h-3.5 text-gray-300" />
                 <span>Tingkat Kesulitan</span>
-                <InfoSmallIcon />
               </label>
               <div className="grid grid-cols-3 gap-2">
                 {[
@@ -535,7 +532,6 @@ export function SetupRoomPage({
               <div className="flex items-center gap-1.5 text-xs font-semibold text-gray-200">
                 <LockIcon className="w-3.5 h-3.5 text-gray-300" />
                 <span>Filter Spoiler</span>
-                <InfoSmallIcon />
               </div>
 
               <button
