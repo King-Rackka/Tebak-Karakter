@@ -1,11 +1,19 @@
 import aotData from '../data/aot.json';
 import narutoData from '../data/naruto.json';
+import onepieceData from '../data/onepiece.json';
+import jujutsuData from '../data/jujutsukaisen.json';
 
 const CACHE_PREFIX = 'tk_wiki_char_v6_';
 const memoryCache = new Map();
 const inFlightRequests = new Map();
 
-const ALL_CHARACTERS = [...aotData, ...narutoData];
+const ALL_CHARACTERS = [
+    ...aotData,
+    ...narutoData,
+    ...onepieceData,
+    ...jujutsuData,
+];
+
 const BY_ID = new Map();
 const BY_NAME = new Map();
 
@@ -15,21 +23,46 @@ for (const item of ALL_CHARACTERS) {
 }
 
 const WIKI_ENDPOINTS = {
-  AOT: {
-    fullName: 'Attack on Titan',
-    api: 'https://attackontitan.fandom.com/api.php',
-  },
-  Naruto: {
-    fullName: 'Naruto',
-    api: 'https://naruto.fandom.com/api.php',
-  },
+    AOT: {
+        fullName: 'Attack on Titan',
+        api: 'https://attackontitan.fandom.com/api.php',
+    },
+    Naruto: {
+        fullName: 'Naruto',
+        api: 'https://naruto.fandom.com/api.php',
+    },
+    OnePiece: {
+        fullName: 'One Piece',
+        api: 'https://onepiece.fandom.com/api.php',
+    },
+    JujutsuKaisen: {
+        fullName: 'Jujutsu Kaisen',
+        api: 'https://jujutsu-kaisen.fandom.com/api.php',
+    },
 };
 
 function normalizeAnime(anime) {
-  const key = String(anime || '').toLowerCase().replace(/[^a-z]/g, '');
-  if (key === 'aot' || key === 'attackontitan') return 'AOT';
-  if (key === 'naruto') return 'Naruto';
-  return null;
+    const key = String(anime || '')
+        .toLowerCase()
+        .replace(/[^a-z]/g, '');
+
+    if (key === 'aot' || key === 'attackontitan') {
+        return 'AOT';
+    }
+
+    if (key === 'naruto' || key === 'narutoshippuden') {
+        return 'Naruto';
+    }
+
+    if (key === 'onepiece' || key === 'op') {
+        return 'OnePiece';
+    }
+
+    if (key === 'jujutsukaisen' || key === 'jjk') {
+        return 'JujutsuKaisen';
+    }
+
+    return null;
 }
 
 async function fetchCombinedWikiImage(name, animeKey) {

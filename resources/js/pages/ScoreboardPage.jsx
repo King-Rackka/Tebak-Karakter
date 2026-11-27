@@ -438,6 +438,28 @@ const THEMES = {
     ink: '#fff3df',
     shade: '#1c1410',
   },
+  jujutsukaisen: {
+    title: 'Jujutsu Kaisen',
+    badge: 'Cursed Energy Mode',
+    background: '/images/lobby-game/bg-jujutsu.png',
+    accent: '#60a5fa',
+    border: '#365b91',
+    panel: '#151e32',
+    button: '#2563eb',
+    ink: '#eaf4ff',
+    shade: '#0a101d',
+  },
+  onepiece: {
+    title: 'One Piece',
+    badge: 'Grand Line Mode',
+    background: '/images/lobby-game/bg-onepiece.png',
+    accent: '#f5c76b',
+    border: '#967447',
+    panel: '#142c42',
+    button: '#b98532',
+    ink: '#fff3d9',
+    shade: '#091c2c',
+  },
   mix: {
     title: 'Campur Semua',
     background: '/images/lobby-game/bg-mix.png',
@@ -456,6 +478,10 @@ const normalize = (value) => {
     ? 'AOT'
     : key === 'naruto'
     ? 'Naruto'
+    : key === 'jujutsukaisen' || key === 'jujutsukaisen'
+    ? 'jujutsukaisen'
+    : key === 'onepiece' || key === 'onepiece'
+    ? 'onepiece'
     : 'mix';
 };
 

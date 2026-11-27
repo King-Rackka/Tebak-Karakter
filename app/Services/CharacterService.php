@@ -76,6 +76,16 @@ class CharacterService
                 'tagline' => 'Konoha, Akatsuki & Lima Desa Besar',
                 'accent' => '#F57C00',
             ],
+            'OnePiece' => [
+                'label' => 'One Piece',
+                'tagline' => 'Bajak Laut Topi Jerami, Yonko & Angkatan Laut',
+                'accent' => '#EF4444',
+            ],
+            'JujutsuKaisen' => [
+                'label' => 'Jujutsu Kaisen',
+                'tagline' => 'Penyihir Jujutsu, Roh Terkutuk & Insiden Shibuya',
+                'accent' => '#6366F1',
+            ],
         ];
 
         $result = [];

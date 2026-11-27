@@ -231,7 +231,7 @@ export function LobbyPage({
         {/* TWO MAIN PANELS */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-5 items-stretch">
           {/* ── LEFT PANEL: Daftar Pemain (2 Kolom Card agar muat 8 pemain tanpa scroll) ── */}
-          <div className="lg:col-span-7 bg-[#151228]/95 backdrop-blur-md border border-[#302959] rounded-[22px] p-4 sm:p-5 shadow-[0_20px_55px_rgba(0,0,0,0.65)] flex flex-col justify-between">
+          <div className="lg:col-span-7 bg-[#151228]/95 backdrop-blur-md border border-[#302959] rounded-[22px] p-4 sm:p-5 shadow-[0_20px_55px_rgba(0,0,0,0.65)] flex flex-col justify-start">
             <div className="flex items-center justify-between border-b border-[#29234a] pb-2.5 mb-3">
               <div className="flex items-center gap-2">
                 <UsersGroupIcon className="w-5 h-5 text-[#8f6eff]" />
