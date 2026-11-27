@@ -10,7 +10,7 @@ class CharacterService
 
     public function __construct()
     {
-        $this->directory = storage_path('app/characters');
+        $this->directory = base_path('storage/app/characters');
     }
 
     /**
