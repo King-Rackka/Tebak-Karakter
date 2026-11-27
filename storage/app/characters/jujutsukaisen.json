@@ -1,0 +1,1094 @@
+[
+  {
+    "id": "jjk-yuji-itadori",
+    "name": "Yuji Itadori",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Yuuji Itadori",
+      "Itadori",
+      "Yuji"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-megumi-fushiguro",
+    "name": "Megumi Fushiguro",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Megumi"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-nobara-kugisaki",
+    "name": "Nobara Kugisaki",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Nobara",
+      "Kugisaki"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-satoru-gojo",
+    "name": "Satoru Gojo",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Gojo",
+      "Gojou",
+      "Satoru"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-ryomen-sukuna",
+    "name": "Ryomen Sukuna",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Sukuna",
+      "Ryoumen Sukuna"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-yuta-okkotsu",
+    "name": "Yuta Okkotsu",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Yuuta Okkotsu",
+      "Yuta",
+      "Okkotsu"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-maki-zenin",
+    "name": "Maki Zenin",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Maki",
+      "Maki Zen'in"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-toge-inumaki",
+    "name": "Toge Inumaki",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Toge",
+      "Inumaki"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-panda",
+    "name": "Panda",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-kento-nanami",
+    "name": "Kento Nanami",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Nanami"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-suguru-geto",
+    "name": "Suguru Geto",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Geto",
+      "Getou"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-toji-fushiguro",
+    "name": "Toji Fushiguro",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Toji",
+      "Toji Zenin"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-mahito",
+    "name": "Mahito",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-jogo",
+    "name": "Jogo",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Jougo"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-hanami",
+    "name": "Hanami",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-choso",
+    "name": "Choso",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Chousou"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-aoi-todo",
+    "name": "Aoi Todo",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Todo",
+      "Toudou"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-kasumi-miwa",
+    "name": "Kasumi Miwa",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Miwa"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-mai-zenin",
+    "name": "Mai Zenin",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Mai",
+      "Mai Zen'in"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-kokichi-muta",
+    "name": "Kokichi Muta",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Mechamaru",
+      "Ultimate Mechamaru"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-shoko-ieiri",
+    "name": "Shoko Ieiri",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Shoko",
+      "Ieiri"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-masamichi-yaga",
+    "name": "Masamichi Yaga",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Yaga"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-kiyotaka-ijichi",
+    "name": "Kiyotaka Ijichi",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Ijichi"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-utahime-iori",
+    "name": "Utahime Iori",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Utahime"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-mei-mei",
+    "name": "Mei Mei",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-ui-ui",
+    "name": "Ui Ui",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-yoshinobu-gakuganji",
+    "name": "Yoshinobu Gakuganji",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Gakuganji"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-noritoshi-kamo",
+    "name": "Noritoshi Kamo",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Kamo"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-momo-nishimiya",
+    "name": "Momo Nishimiya",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Momo",
+      "Nishimiya"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-junpei-yoshino",
+    "name": "Junpei Yoshino",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Junpei"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-rika-orimoto",
+    "name": "Rika Orimoto",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Rika"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-riko-amanai",
+    "name": "Riko Amanai",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Riko",
+      "Amanai"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-misato-kuroi",
+    "name": "Misato Kuroi",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Kuroi"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-yu-haibara",
+    "name": "Yu Haibara",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Haibara",
+      "Yuu Haibara"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-takuma-ino",
+    "name": "Takuma Ino",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Ino"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-atsuya-kusakabe",
+    "name": "Atsuya Kusakabe",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Kusakabe"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-tsumiki-fushiguro",
+    "name": "Tsumiki Fushiguro",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Tsumiki"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-naobito-zenin",
+    "name": "Naobito Zenin",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Naobito",
+      "Naobito Zen'in"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-naoya-zenin",
+    "name": "Naoya Zenin",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Naoya",
+      "Naoya Zen'in"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-dagon",
+    "name": "Dagon",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-eso",
+    "name": "Eso",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-kechizu",
+    "name": "Kechizu",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-kenjaku",
+    "name": "Kenjaku",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-uraume",
+    "name": "Uraume",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-tengen",
+    "name": "Tengen",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Master Tengen"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-kinji-hakari",
+    "name": "Kinji Hakari",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Hakari"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-kirara-hoshi",
+    "name": "Kirara Hoshi",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Kirara"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-hiromi-higuruma",
+    "name": "Hiromi Higuruma",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Higuruma"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-hajime-kashimo",
+    "name": "Hajime Kashimo",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Kashimo"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-fumihiko-takaba",
+    "name": "Fumihiko Takaba",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Takaba"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-hana-kurusu",
+    "name": "Hana Kurusu",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Hana"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-yuki-tsukumo",
+    "name": "Yuki Tsukumo",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Yuki",
+      "Tsukumo"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-wasuke-itadori",
+    "name": "Wasuke Itadori",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Wasuke"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-nagi-yoshino",
+    "name": "Nagi Yoshino",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Nagi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-setsuko-sasaki",
+    "name": "Setsuko Sasaki",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Sasaki"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-takeshi-iguchi",
+    "name": "Takeshi Iguchi",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Iguchi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-takada",
+    "name": "Takada",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Takada-chan",
+      "Nobuko Takada"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-akari-nitta",
+    "name": "Akari Nitta",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Akari"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-arata-nitta",
+    "name": "Arata Nitta",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Arata"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-haruta-shigemo",
+    "name": "Haruta Shigemo",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Haruta",
+      "Shigemo"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-juzo-kumiya",
+    "name": "Juzo Kumiya",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Juzou Kumiya",
+      "Kumiya"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-jiro-awasaka",
+    "name": "Jiro Awasaka",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Jirou Awasaka",
+      "Awasaka"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-ogami",
+    "name": "Ogami",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Granny Ogami"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-ogami-s-grandson",
+    "name": "Ogami's Grandson",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-niji-ebina",
+    "name": "Niji Ebina",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Ebina"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-toshihisa-negi",
+    "name": "Toshihisa Negi",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Negi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-manami-suda",
+    "name": "Manami Suda",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Suda"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-miguel",
+    "name": "Miguel",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Miguel Oduol"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-larue",
+    "name": "Larue",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-mimiko-hasaba",
+    "name": "Mimiko Hasaba",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Mimiko"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-nanako-hasaba",
+    "name": "Nanako Hasaba",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Nanako"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-shiu-kong",
+    "name": "Shiu Kong",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Kong Shiu"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-bayer",
+    "name": "Bayer",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-kokun",
+    "name": "Kokun",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-shigeru-sonoda",
+    "name": "Shigeru Sonoda",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Sonoda"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-ogi-zenin",
+    "name": "Ogi Zenin",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Ogi",
+      "Ogi Zen'in"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-jinichi-zenin",
+    "name": "Jinichi Zenin",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Jinichi",
+      "Jinichi Zen'in"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-ranta-zenin",
+    "name": "Ranta Zenin",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Ranta",
+      "Ranta Zen'in"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-chojuro-zenin",
+    "name": "Chojuro Zenin",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Chojuro",
+      "Chojuro Zen'in"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-nobuaki-zenin",
+    "name": "Nobuaki Zenin",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Nobuaki",
+      "Nobuaki Zen'in"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-jin-itadori",
+    "name": "Jin Itadori",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Jin"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-kaori-itadori",
+    "name": "Kaori Itadori",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Kaori"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-hanyu",
+    "name": "Hanyu",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-haba",
+    "name": "Haba",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-rin-amai",
+    "name": "Rin Amai",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Amai"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-remi",
+    "name": "Remi",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-reggie-star",
+    "name": "Reggie Star",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Reggie"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-iori-hazenoki",
+    "name": "Iori Hazenoki",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Hazenoki"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-chizuru-hari",
+    "name": "Chizuru Hari",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Hari"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-dhruv-lakdawalla",
+    "name": "Dhruv Lakdawalla",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Dhruv"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-ryu-ishigori",
+    "name": "Ryu Ishigori",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Ryuu Ishigori",
+      "Ishigori"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-takako-uro",
+    "name": "Takako Uro",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Uro"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-kurourushi",
+    "name": "Kurourushi",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-charles-bernard",
+    "name": "Charles Bernard",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Charles"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-hagane-daido",
+    "name": "Hagane Daido",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Daido",
+      "Hagane Daidou"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-rokujushi-miyo",
+    "name": "Rokujushi Miyo",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Miyo"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-yorozu",
+    "name": "Yorozu",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "jjk-yuko-ozawa",
+    "name": "Yuko Ozawa",
+    "anime": "JujutsuKaisen",
+    "aliases": [
+      "Yuko",
+      "Yuuko Ozawa"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-saori",
+    "name": "Saori",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "jjk-fumi",
+    "name": "Fumi",
+    "anime": "JujutsuKaisen",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  }
+]

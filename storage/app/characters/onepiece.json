@@ -1,0 +1,3615 @@
+[
+  {
+    "id": "op-monkey-d-luffy",
+    "name": "Monkey D. Luffy",
+    "anime": "OnePiece",
+    "aliases": [
+      "Luffy",
+      "Straw Hat Luffy",
+      "Mugiwara"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-roronoa-zoro",
+    "name": "Roronoa Zoro",
+    "anime": "OnePiece",
+    "aliases": [
+      "Zoro",
+      "Zolo"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-nami",
+    "name": "Nami",
+    "anime": "OnePiece",
+    "aliases": [
+      "Cat Burglar Nami"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-usopp",
+    "name": "Usopp",
+    "anime": "OnePiece",
+    "aliases": [
+      "Sogeking",
+      "God Usopp"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sanji",
+    "name": "Sanji",
+    "anime": "OnePiece",
+    "aliases": [
+      "Vinsmoke Sanji",
+      "Black Leg Sanji"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-tony-tony-chopper",
+    "name": "Tony Tony Chopper",
+    "anime": "OnePiece",
+    "aliases": [
+      "Chopper"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-nico-robin",
+    "name": "Nico Robin",
+    "anime": "OnePiece",
+    "aliases": [
+      "Robin",
+      "Miss All Sunday"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-franky",
+    "name": "Franky",
+    "anime": "OnePiece",
+    "aliases": [
+      "Cutty Flam"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-brook",
+    "name": "Brook",
+    "anime": "OnePiece",
+    "aliases": [
+      "Soul King"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-jinbe",
+    "name": "Jinbe",
+    "anime": "OnePiece",
+    "aliases": [
+      "Jimbei",
+      "Jinbei"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-shanks",
+    "name": "Shanks",
+    "anime": "OnePiece",
+    "aliases": [
+      "Red Hair Shanks"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-portgas-d-ace",
+    "name": "Portgas D. Ace",
+    "anime": "OnePiece",
+    "aliases": [
+      "Ace",
+      "Fire Fist Ace"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sabo",
+    "name": "Sabo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-monkey-d-garp",
+    "name": "Monkey D. Garp",
+    "anime": "OnePiece",
+    "aliases": [
+      "Garp"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-monkey-d-dragon",
+    "name": "Monkey D. Dragon",
+    "anime": "OnePiece",
+    "aliases": [
+      "Dragon"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gol-d-roger",
+    "name": "Gol D. Roger",
+    "anime": "OnePiece",
+    "aliases": [
+      "Gold Roger",
+      "Roger"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-edward-newgate",
+    "name": "Edward Newgate",
+    "anime": "OnePiece",
+    "aliases": [
+      "Whitebeard",
+      "Shirohige"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-marshall-d-teach",
+    "name": "Marshall D. Teach",
+    "anime": "OnePiece",
+    "aliases": [
+      "Blackbeard",
+      "Kurohige",
+      "Teach"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-buggy",
+    "name": "Buggy",
+    "anime": "OnePiece",
+    "aliases": [
+      "Buggy the Clown"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-dracule-mihawk",
+    "name": "Dracule Mihawk",
+    "anime": "OnePiece",
+    "aliases": [
+      "Mihawk",
+      "Hawk Eyes"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-boa-hancock",
+    "name": "Boa Hancock",
+    "anime": "OnePiece",
+    "aliases": [
+      "Hancock"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-trafalgar-d-water-law",
+    "name": "Trafalgar D. Water Law",
+    "anime": "OnePiece",
+    "aliases": [
+      "Trafalgar Law",
+      "Law"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-eustass-kid",
+    "name": "Eustass Kid",
+    "anime": "OnePiece",
+    "aliases": [
+      "Eustass Kidd",
+      "Kid",
+      "Kidd"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kaido",
+    "name": "Kaido",
+    "anime": "OnePiece",
+    "aliases": [
+      "Kaidou"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-linlin",
+    "name": "Charlotte Linlin",
+    "anime": "OnePiece",
+    "aliases": [
+      "Big Mom",
+      "Linlin"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-donquixote-doflamingo",
+    "name": "Donquixote Doflamingo",
+    "anime": "OnePiece",
+    "aliases": [
+      "Doflamingo",
+      "Doffy"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-crocodile",
+    "name": "Crocodile",
+    "anime": "OnePiece",
+    "aliases": [
+      "Sir Crocodile",
+      "Mr. 0"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-enel",
+    "name": "Enel",
+    "anime": "OnePiece",
+    "aliases": [
+      "Eneru"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-rob-lucci",
+    "name": "Rob Lucci",
+    "anime": "OnePiece",
+    "aliases": [
+      "Lucci"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-smoker",
+    "name": "Smoker",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-koby",
+    "name": "Koby",
+    "anime": "OnePiece",
+    "aliases": [
+      "Coby"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kuzan",
+    "name": "Kuzan",
+    "anime": "OnePiece",
+    "aliases": [
+      "Aokiji"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sakazuki",
+    "name": "Sakazuki",
+    "anime": "OnePiece",
+    "aliases": [
+      "Akainu"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-borsalino",
+    "name": "Borsalino",
+    "anime": "OnePiece",
+    "aliases": [
+      "Kizaru"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-issho",
+    "name": "Issho",
+    "anime": "OnePiece",
+    "aliases": [
+      "Fujitora"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-aramaki",
+    "name": "Aramaki",
+    "anime": "OnePiece",
+    "aliases": [
+      "Ryokugyu"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-silvers-rayleigh",
+    "name": "Silvers Rayleigh",
+    "anime": "OnePiece",
+    "aliases": [
+      "Rayleigh"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-bartholomew-kuma",
+    "name": "Bartholomew Kuma",
+    "anime": "OnePiece",
+    "aliases": [
+      "Kuma"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-perona",
+    "name": "Perona",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-yamato",
+    "name": "Yamato",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-kozuki-oden",
+    "name": "Kozuki Oden",
+    "anime": "OnePiece",
+    "aliases": [
+      "Oden"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-nefertari-vivi",
+    "name": "Nefertari Vivi",
+    "anime": "OnePiece",
+    "aliases": [
+      "Vivi",
+      "Miss Wednesday"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-marco",
+    "name": "Marco",
+    "anime": "OnePiece",
+    "aliases": [
+      "Marco the Phoenix"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-katakuri",
+    "name": "Charlotte Katakuri",
+    "anime": "OnePiece",
+    "aliases": [
+      "Katakuri"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-king",
+    "name": "King",
+    "anime": "OnePiece",
+    "aliases": [
+      "Alber"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-queen",
+    "name": "Queen",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-jack",
+    "name": "Jack",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-arlong",
+    "name": "Arlong",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-shirahoshi",
+    "name": "Shirahoshi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-carrot",
+    "name": "Carrot",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-alvida",
+    "name": "Alvida",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kuro",
+    "name": "Kuro",
+    "anime": "OnePiece",
+    "aliases": [
+      "Captain Kuro",
+      "Klahadore"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-don-krieg",
+    "name": "Don Krieg",
+    "anime": "OnePiece",
+    "aliases": [
+      "Krieg"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gin",
+    "name": "Gin",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-zeff",
+    "name": "Zeff",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-nojiko",
+    "name": "Nojiko",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-bellemere",
+    "name": "Bellemere",
+    "anime": "OnePiece",
+    "aliases": [
+      "Bell-mere"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-genzo",
+    "name": "Genzo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hatchan",
+    "name": "Hatchan",
+    "anime": "OnePiece",
+    "aliases": [
+      "Hachi"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kaya",
+    "name": "Kaya",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-makino",
+    "name": "Makino",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-curly-dadan",
+    "name": "Curly Dadan",
+    "anime": "OnePiece",
+    "aliases": [
+      "Dadan"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-wooper-slap",
+    "name": "Wooper Slap",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-benn-beckman",
+    "name": "Benn Beckman",
+    "anime": "OnePiece",
+    "aliases": [
+      "Ben Beckman"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-lucky-roux",
+    "name": "Lucky Roux",
+    "anime": "OnePiece",
+    "aliases": [
+      "Lucky Roo"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-yasopp",
+    "name": "Yasopp",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-higuma",
+    "name": "Higuma",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-helmeppo",
+    "name": "Helmeppo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-tashigi",
+    "name": "Tashigi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sengoku",
+    "name": "Sengoku",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-tsuru",
+    "name": "Tsuru",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hina",
+    "name": "Hina",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sentomaru",
+    "name": "Sentomaru",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-magellan",
+    "name": "Magellan",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hannyabal",
+    "name": "Hannyabal",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-emporio-ivankov",
+    "name": "Emporio Ivankov",
+    "anime": "OnePiece",
+    "aliases": [
+      "Ivankov",
+      "Iva"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-inazuma",
+    "name": "Inazuma",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-bentham",
+    "name": "Bentham",
+    "anime": "OnePiece",
+    "aliases": [
+      "Bon Clay",
+      "Mr. 2"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-galdino",
+    "name": "Galdino",
+    "anime": "OnePiece",
+    "aliases": [
+      "Mr. 3"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-daz-bonez",
+    "name": "Daz Bonez",
+    "anime": "OnePiece",
+    "aliases": [
+      "Mr. 1"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-zala",
+    "name": "Zala",
+    "anime": "OnePiece",
+    "aliases": [
+      "Miss Doublefinger"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-mikita",
+    "name": "Mikita",
+    "anime": "OnePiece",
+    "aliases": [
+      "Miss Valentine"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gem",
+    "name": "Gem",
+    "anime": "OnePiece",
+    "aliases": [
+      "Mr. 5"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-nefertari-cobra",
+    "name": "Nefertari Cobra",
+    "anime": "OnePiece",
+    "aliases": [
+      "Cobra"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-igaram",
+    "name": "Igaram",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-pell",
+    "name": "Pell",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-chaka",
+    "name": "Chaka",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-koza",
+    "name": "Koza",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-wapol",
+    "name": "Wapol",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-dalton",
+    "name": "Dalton",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kureha",
+    "name": "Kureha",
+    "anime": "OnePiece",
+    "aliases": [
+      "Dr. Kureha"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hiriluk",
+    "name": "Hiriluk",
+    "anime": "OnePiece",
+    "aliases": [
+      "Dr. Hiriluk",
+      "Hiluluk"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-dorry",
+    "name": "Dorry",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-brogy",
+    "name": "Brogy",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gan-fall",
+    "name": "Gan Fall",
+    "anime": "OnePiece",
+    "aliases": [
+      "Gan Forr"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-conis",
+    "name": "Conis",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-wyper",
+    "name": "Wyper",
+    "anime": "OnePiece",
+    "aliases": [
+      "Wiper"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-mont-blanc-cricket",
+    "name": "Mont Blanc Cricket",
+    "anime": "OnePiece",
+    "aliases": [
+      "Cricket"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-foxy",
+    "name": "Foxy",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-iceburg",
+    "name": "Iceburg",
+    "anime": "OnePiece",
+    "aliases": [
+      "Iceberg"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-paulie",
+    "name": "Paulie",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kaku",
+    "name": "Kaku",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kalifa",
+    "name": "Kalifa",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-blueno",
+    "name": "Blueno",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-jabra",
+    "name": "Jabra",
+    "anime": "OnePiece",
+    "aliases": [
+      "Jyabura"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kumadori",
+    "name": "Kumadori",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-fukurou",
+    "name": "Fukurou",
+    "anime": "OnePiece",
+    "aliases": [
+      "Fukuro"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-spandam",
+    "name": "Spandam",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-tom",
+    "name": "Tom",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kokoro",
+    "name": "Kokoro",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-chimney",
+    "name": "Chimney",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gecko-moria",
+    "name": "Gecko Moria",
+    "anime": "OnePiece",
+    "aliases": [
+      "Moria"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-absalom",
+    "name": "Absalom",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hogback",
+    "name": "Hogback",
+    "anime": "OnePiece",
+    "aliases": [
+      "Dr. Hogback"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-killer",
+    "name": "Killer",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-basil-hawkins",
+    "name": "Basil Hawkins",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-scratchmen-apoo",
+    "name": "Scratchmen Apoo",
+    "anime": "OnePiece",
+    "aliases": [
+      "Apoo"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-x-drake",
+    "name": "X Drake",
+    "anime": "OnePiece",
+    "aliases": [
+      "Drake"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-capone-bege",
+    "name": "Capone Bege",
+    "anime": "OnePiece",
+    "aliases": [
+      "Bege"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-jewelry-bonney",
+    "name": "Jewelry Bonney",
+    "anime": "OnePiece",
+    "aliases": [
+      "Bonney"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-urouge",
+    "name": "Urouge",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-bepo",
+    "name": "Bepo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hody-jones",
+    "name": "Hody Jones",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-fisher-tiger",
+    "name": "Fisher Tiger",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-neptune",
+    "name": "Neptune",
+    "anime": "OnePiece",
+    "aliases": [
+      "King Neptune"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-otohime",
+    "name": "Otohime",
+    "anime": "OnePiece",
+    "aliases": [
+      "Queen Otohime"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vander-decken-ix",
+    "name": "Vander Decken IX",
+    "anime": "OnePiece",
+    "aliases": [
+      "Vander Decken"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-caesar-clown",
+    "name": "Caesar Clown",
+    "anime": "OnePiece",
+    "aliases": [
+      "Caesar"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-monet",
+    "name": "Monet",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vergo",
+    "name": "Vergo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kinemon",
+    "name": "Kinemon",
+    "anime": "OnePiece",
+    "aliases": [
+      "Kin'emon"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kozuki-momonosuke",
+    "name": "Kozuki Momonosuke",
+    "anime": "OnePiece",
+    "aliases": [
+      "Momonosuke",
+      "Momo"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-kozuki-hiyori",
+    "name": "Kozuki Hiyori",
+    "anime": "OnePiece",
+    "aliases": [
+      "Hiyori",
+      "Komurasaki"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-kanjuro",
+    "name": "Kanjuro",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-raizo",
+    "name": "Raizo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-kikunojo",
+    "name": "Kikunojo",
+    "anime": "OnePiece",
+    "aliases": [
+      "Kiku",
+      "Okiku"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-inuarashi",
+    "name": "Inuarashi",
+    "anime": "OnePiece",
+    "aliases": [
+      "Dogstorm"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-nekomamushi",
+    "name": "Nekomamushi",
+    "anime": "OnePiece",
+    "aliases": [
+      "Cat Viper"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-ashura-doji",
+    "name": "Ashura Doji",
+    "anime": "OnePiece",
+    "aliases": [
+      "Shutenmaru"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-denjiro",
+    "name": "Denjiro",
+    "anime": "OnePiece",
+    "aliases": [
+      "Kyoshiro"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-kawamatsu",
+    "name": "Kawamatsu",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-tama",
+    "name": "Tama",
+    "anime": "OnePiece",
+    "aliases": [
+      "Otama"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-toko",
+    "name": "Toko",
+    "anime": "OnePiece",
+    "aliases": [
+      "Otoko"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-shinobu",
+    "name": "Shinobu",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-kurozumi-orochi",
+    "name": "Kurozumi Orochi",
+    "anime": "OnePiece",
+    "aliases": [
+      "Orochi"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-ulti",
+    "name": "Ulti",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-page-one",
+    "name": "Page One",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-who-s-who",
+    "name": "Who's-Who",
+    "anime": "OnePiece",
+    "aliases": [
+      "Whos Who"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-sasaki",
+    "name": "Sasaki",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-black-maria",
+    "name": "Black Maria",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-pudding",
+    "name": "Charlotte Pudding",
+    "anime": "OnePiece",
+    "aliases": [
+      "Pudding"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-perospero",
+    "name": "Charlotte Perospero",
+    "anime": "OnePiece",
+    "aliases": [
+      "Perospero"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-smoothie",
+    "name": "Charlotte Smoothie",
+    "anime": "OnePiece",
+    "aliases": [
+      "Smoothie"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-cracker",
+    "name": "Charlotte Cracker",
+    "anime": "OnePiece",
+    "aliases": [
+      "Cracker"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-brulee",
+    "name": "Charlotte Brulee",
+    "anime": "OnePiece",
+    "aliases": [
+      "Brulee"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-oven",
+    "name": "Charlotte Oven",
+    "anime": "OnePiece",
+    "aliases": [
+      "Oven"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-daifuku",
+    "name": "Charlotte Daifuku",
+    "anime": "OnePiece",
+    "aliases": [
+      "Daifuku"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vinsmoke-judge",
+    "name": "Vinsmoke Judge",
+    "anime": "OnePiece",
+    "aliases": [
+      "Judge"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vinsmoke-reiju",
+    "name": "Vinsmoke Reiju",
+    "anime": "OnePiece",
+    "aliases": [
+      "Reiju"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vinsmoke-ichiji",
+    "name": "Vinsmoke Ichiji",
+    "anime": "OnePiece",
+    "aliases": [
+      "Ichiji"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vinsmoke-niji",
+    "name": "Vinsmoke Niji",
+    "anime": "OnePiece",
+    "aliases": [
+      "Niji"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vinsmoke-yonji",
+    "name": "Vinsmoke Yonji",
+    "anime": "OnePiece",
+    "aliases": [
+      "Yonji"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-pedro",
+    "name": "Pedro",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-pekoms",
+    "name": "Pekoms",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-tamago",
+    "name": "Tamago",
+    "anime": "OnePiece",
+    "aliases": [
+      "Baron Tamago"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-rebecca",
+    "name": "Rebecca",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kyros",
+    "name": "Kyros",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-riku-doldo-iii",
+    "name": "Riku Doldo III",
+    "anime": "OnePiece",
+    "aliases": [
+      "King Riku"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-viola",
+    "name": "Viola",
+    "anime": "OnePiece",
+    "aliases": [
+      "Violet"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-bartolomeo",
+    "name": "Bartolomeo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-cavendish",
+    "name": "Cavendish",
+    "anime": "OnePiece",
+    "aliases": [
+      "Hakuba"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sai",
+    "name": "Sai",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-don-chinjao",
+    "name": "Don Chinjao",
+    "anime": "OnePiece",
+    "aliases": [
+      "Chinjao"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-baby-5",
+    "name": "Baby 5",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sugar",
+    "name": "Sugar",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-trebol",
+    "name": "Trebol",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-diamante",
+    "name": "Diamante",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-pica",
+    "name": "Pica",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-senor-pink",
+    "name": "Senor Pink",
+    "anime": "OnePiece",
+    "aliases": [
+      "Señor Pink"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-corazon",
+    "name": "Corazon",
+    "anime": "OnePiece",
+    "aliases": [
+      "Donquixote Rosinante",
+      "Rosinante"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-lao-g",
+    "name": "Lao G",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gladius",
+    "name": "Gladius",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-machvise",
+    "name": "Machvise",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-dellinger",
+    "name": "Dellinger",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-giolla",
+    "name": "Giolla",
+    "anime": "OnePiece",
+    "aliases": [
+      "Jora"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-buffalo",
+    "name": "Buffalo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-bellamy",
+    "name": "Bellamy",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sarquiss",
+    "name": "Sarquiss",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-masira",
+    "name": "Masira",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-shoujou",
+    "name": "Shoujou",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-mont-blanc-noland",
+    "name": "Mont Blanc Noland",
+    "anime": "OnePiece",
+    "aliases": [
+      "Noland"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kalgara",
+    "name": "Kalgara",
+    "anime": "OnePiece",
+    "aliases": [
+      "Calgara"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-aisa",
+    "name": "Aisa",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-satori",
+    "name": "Satori",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-shura",
+    "name": "Shura",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-ohm",
+    "name": "Ohm",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gedatsu",
+    "name": "Gedatsu",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-pagaya",
+    "name": "Pagaya",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kamakiri",
+    "name": "Kamakiri",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-braham",
+    "name": "Braham",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-genbo",
+    "name": "Genbo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hotori",
+    "name": "Hotori",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kotori",
+    "name": "Kotori",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-pearl",
+    "name": "Pearl",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-fullbody",
+    "name": "Fullbody",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-jango",
+    "name": "Jango",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sham",
+    "name": "Sham",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-buchi",
+    "name": "Buchi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-mohji",
+    "name": "Mohji",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-cabaji",
+    "name": "Cabaji",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-richie",
+    "name": "Richie",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gaimon",
+    "name": "Gaimon",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sarfunkel",
+    "name": "Sarfunkel",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-patty",
+    "name": "Patty",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-carne",
+    "name": "Carne",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-johnny",
+    "name": "Johnny",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-yosaku",
+    "name": "Yosaku",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-chew",
+    "name": "Chew",
+    "anime": "OnePiece",
+    "aliases": [
+      "Chuu"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kuroobi",
+    "name": "Kuroobi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-nezumi",
+    "name": "Nezumi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-toto",
+    "name": "Toto",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-terracotta",
+    "name": "Terracotta",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-mr-4",
+    "name": "Mr. 4",
+    "anime": "OnePiece",
+    "aliases": [
+      "Babe"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-miss-merry-christmas",
+    "name": "Miss Merry Christmas",
+    "anime": "OnePiece",
+    "aliases": [
+      "Drophy"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-miss-goldenweek",
+    "name": "Miss Goldenweek",
+    "anime": "OnePiece",
+    "aliases": [
+      "Marianne"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-mr-9",
+    "name": "Mr. 9",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-miss-monday",
+    "name": "Miss Monday",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-chess",
+    "name": "Chess",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kuromarimo",
+    "name": "Kuromarimo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-laki",
+    "name": "Laki",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-yama",
+    "name": "Yama",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-porche",
+    "name": "Porche",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hamburg",
+    "name": "Hamburg",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-pickles",
+    "name": "Pickles",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-big-pan",
+    "name": "Big Pan",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-tilestone",
+    "name": "Tilestone",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-peepley-lulu",
+    "name": "Peepley Lulu",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-zambai",
+    "name": "Zambai",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-mozu",
+    "name": "Mozu",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kiwi",
+    "name": "Kiwi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-yokozuna",
+    "name": "Yokozuna",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-tyrannosaurus",
+    "name": "Tyrannosaurus",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-nero",
+    "name": "Nero",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-jerry",
+    "name": "Jerry",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-t-bone",
+    "name": "T-Bone",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sharinguru",
+    "name": "Sharinguru",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-berry-good",
+    "name": "Berry Good",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-onigumo",
+    "name": "Onigumo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-momonga",
+    "name": "Momonga",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-doberman",
+    "name": "Doberman",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-strawberry",
+    "name": "Strawberry",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-yamakaji",
+    "name": "Yamakaji",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-dalmatian",
+    "name": "Dalmatian",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-bastille",
+    "name": "Bastille",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-maynard",
+    "name": "Maynard",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-john-giant",
+    "name": "John Giant",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-stainless",
+    "name": "Stainless",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gion",
+    "name": "Gion",
+    "anime": "OnePiece",
+    "aliases": [
+      "Momousagi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-tokikake",
+    "name": "Tokikake",
+    "anime": "OnePiece",
+    "aliases": [
+      "Chaton"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-bogard",
+    "name": "Bogard",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-domino",
+    "name": "Domino",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sadi",
+    "name": "Sadi",
+    "anime": "OnePiece",
+    "aliases": [
+      "Sadi-chan"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-saldeath",
+    "name": "Saldeath",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-minotaurus",
+    "name": "Minotaurus",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-minozebra",
+    "name": "Minozebra",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-minokoala",
+    "name": "Minokoala",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-minorhinoceros",
+    "name": "Minorhinoceros",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sanjuan-wolf",
+    "name": "Sanjuan Wolf",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vasco-shot",
+    "name": "Vasco Shot",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-avalo-pizarro",
+    "name": "Avalo Pizarro",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-catarina-devon",
+    "name": "Catarina Devon",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-jesus-burgess",
+    "name": "Jesus Burgess",
+    "anime": "OnePiece",
+    "aliases": [
+      "Burgess"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-van-augur",
+    "name": "Van Augur",
+    "anime": "OnePiece",
+    "aliases": [
+      "Augur"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-laffitte",
+    "name": "Laffitte",
+    "anime": "OnePiece",
+    "aliases": [
+      "Lafitte"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-doc-q",
+    "name": "Doc Q",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-stronger",
+    "name": "Stronger",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-shiryu",
+    "name": "Shiryu",
+    "anime": "OnePiece",
+    "aliases": [
+      "Shiliew"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vista",
+    "name": "Vista",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-jozu",
+    "name": "Jozu",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-thatch",
+    "name": "Thatch",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-izo",
+    "name": "Izo",
+    "anime": "OnePiece",
+    "aliases": [
+      "Izou"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-rakuyo",
+    "name": "Rakuyo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-blamenco",
+    "name": "Blamenco",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-fossa",
+    "name": "Fossa",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-namur",
+    "name": "Namur",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-blenheim",
+    "name": "Blenheim",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-curiel",
+    "name": "Curiel",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-haruta",
+    "name": "Haruta",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-speed-jiru",
+    "name": "Speed Jiru",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-atmos",
+    "name": "Atmos",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kingdew",
+    "name": "Kingdew",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-squard",
+    "name": "Squard",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-little-oars-jr",
+    "name": "Little Oars Jr.",
+    "anime": "OnePiece",
+    "aliases": [
+      "Little Oars Junior"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-whitey-bay",
+    "name": "Whitey Bay",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-doma",
+    "name": "Doma",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-mcguy",
+    "name": "McGuy",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-duval",
+    "name": "Duval",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-camie",
+    "name": "Camie",
+    "anime": "OnePiece",
+    "aliases": [
+      "Keimi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-pappag",
+    "name": "Pappag",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-shakuyaku",
+    "name": "Shakuyaku",
+    "anime": "OnePiece",
+    "aliases": [
+      "Shakky"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-marguerite",
+    "name": "Marguerite",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sweet-pea",
+    "name": "Sweet Pea",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-aphelandra",
+    "name": "Aphelandra",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-boa-sandersonia",
+    "name": "Boa Sandersonia",
+    "anime": "OnePiece",
+    "aliases": [
+      "Sandersonia"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-boa-marigold",
+    "name": "Boa Marigold",
+    "anime": "OnePiece",
+    "aliases": [
+      "Marigold"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gloriosa",
+    "name": "Gloriosa",
+    "anime": "OnePiece",
+    "aliases": [
+      "Elder Nyon"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-fukaboshi",
+    "name": "Fukaboshi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-ryuboshi",
+    "name": "Ryuboshi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-manboshi",
+    "name": "Manboshi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-madam-shyarly",
+    "name": "Madam Shyarly",
+    "anime": "OnePiece",
+    "aliases": [
+      "Shyarly"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-den",
+    "name": "Den",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-zeo",
+    "name": "Zeo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-dosun",
+    "name": "Dosun",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-daruma",
+    "name": "Daruma",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-ikaros-much",
+    "name": "Ikaros Much",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hyouzou",
+    "name": "Hyouzou",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-wadatsumi",
+    "name": "Wadatsumi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-surume",
+    "name": "Surume",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-brownbeard",
+    "name": "Brownbeard",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-rock",
+    "name": "Rock",
+    "anime": "OnePiece",
+    "aliases": [
+      "Rock the Yeti Cool Brother"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-scotch",
+    "name": "Scotch",
+    "anime": "OnePiece",
+    "aliases": [
+      "Scotch the Yeti Cool Brother"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-mocha",
+    "name": "Mocha",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-sind",
+    "name": "Sind",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-penguin",
+    "name": "Penguin",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-shachi",
+    "name": "Shachi",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-jean-bart",
+    "name": "Jean Bart",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-heat",
+    "name": "Heat",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-wire",
+    "name": "Wire",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-vito",
+    "name": "Vito",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-gotti",
+    "name": "Gotti",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-chiffon",
+    "name": "Charlotte Chiffon",
+    "anime": "OnePiece",
+    "aliases": [
+      "Chiffon"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-lola",
+    "name": "Charlotte Lola",
+    "anime": "OnePiece",
+    "aliases": [
+      "Lola"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-mont-d-or",
+    "name": "Charlotte Mont-d'Or",
+    "anime": "OnePiece",
+    "aliases": [
+      "Mont Dor"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-galette",
+    "name": "Charlotte Galette",
+    "anime": "OnePiece",
+    "aliases": [
+      "Galette"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-amande",
+    "name": "Charlotte Amande",
+    "anime": "OnePiece",
+    "aliases": [
+      "Amande"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-opera",
+    "name": "Charlotte Opera",
+    "anime": "OnePiece",
+    "aliases": [
+      "Opera"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-snack",
+    "name": "Charlotte Snack",
+    "anime": "OnePiece",
+    "aliases": [
+      "Snack"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-flampe",
+    "name": "Charlotte Flampe",
+    "anime": "OnePiece",
+    "aliases": [
+      "Flampe"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-charlotte-praline",
+    "name": "Charlotte Praline",
+    "anime": "OnePiece",
+    "aliases": [
+      "Praline"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-streusen",
+    "name": "Streusen",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-diesel",
+    "name": "Diesel",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-randolph",
+    "name": "Randolph",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kingbaum",
+    "name": "Kingbaum",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-pound",
+    "name": "Pound",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-morgans",
+    "name": "Morgans",
+    "anime": "OnePiece",
+    "aliases": [
+      "Big News Morgans"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-stussy",
+    "name": "Stussy",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-du-feld",
+    "name": "Du Feld",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-umit",
+    "name": "Umit",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-giberson",
+    "name": "Giberson",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-drug-peclo",
+    "name": "Drug Peclo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-hyougoro",
+    "name": "Hyougoro",
+    "anime": "OnePiece",
+    "aliases": [
+      "Hyogoro"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-yasuie",
+    "name": "Yasuie",
+    "anime": "OnePiece",
+    "aliases": [
+      "Shimotsuki Yasuie",
+      "Tonoyasu"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-onimaru",
+    "name": "Onimaru",
+    "anime": "OnePiece",
+    "aliases": [
+      "Gyukimaru"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-speed",
+    "name": "Speed",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-holdem",
+    "name": "Holdem",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-babanuki",
+    "name": "Babanuki",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-daifugo",
+    "name": "Daifugo",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-solitaire",
+    "name": "Solitaire",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-dobon",
+    "name": "Dobon",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-bao-huang",
+    "name": "Bao Huang",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-hotei",
+    "name": "Hotei",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-fukurokuju",
+    "name": "Fukurokuju",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-hawkins",
+    "name": "Hawkins",
+    "anime": "OnePiece",
+    "aliases": [],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "op-kozuki-toki",
+    "name": "Kozuki Toki",
+    "anime": "OnePiece",
+    "aliases": [
+      "Toki"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-kozuki-sukiyaki",
+    "name": "Kozuki Sukiyaki",
+    "anime": "OnePiece",
+    "aliases": [
+      "Sukiyaki"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "op-shimotsuki-ryuma",
+    "name": "Shimotsuki Ryuma",
+    "anime": "OnePiece",
+    "aliases": [
+      "Ryuma"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  }
+]
