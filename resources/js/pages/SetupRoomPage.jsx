@@ -219,7 +219,7 @@ export function SetupRoomPage({
 
           <div className="relative flex items-center gap-1.5 px-2 py-1 text-[#9d7cff]">
             <GearIcon className="w-4 h-4" />
-            <span>Setup Room</span>
+            <span className="hidden sm:inline">Setup Room</span>
             <span className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#6246ea] rounded-full" />
           </div>
 
