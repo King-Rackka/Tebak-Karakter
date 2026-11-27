@@ -1,0 +1,291 @@
+@import "tailwindcss";
+
+/* ============================================================
+   TEBAK KARAKTER — Design System
+   Referensi: wireframe dark-purple scrapbook anime style
+   ============================================================ */
+
+:root {
+    /* Core palette */
+    --tk-bg:           #0F0C1D;
+    --tk-bg-mid:       #141028;
+    --tk-card:         rgba(26, 22, 50, 0.90);
+    --tk-card-solid:   #1A1632;
+    --tk-elevated:     #221C46;
+    --tk-accent:       #8B7CF6;
+    --tk-accent-dark:  #6352D8;
+    --tk-accent-glow:  rgba(139, 124, 246, 0.35);
+    --tk-gold:         #F4CA4E;
+    --tk-text:         #F0EEFF;
+    --tk-muted:        #A8A3C7;
+    --tk-border:       rgba(255, 255, 255, 0.10);
+    --tk-border-soft:  rgba(255, 255, 255, 0.07);
+    /* Theme overrides */
+    --tk-success:      #3FB67A;
+    --tk-danger:       #E5534B;
+}
+
+/* ---- AOT theme ---- */
+[data-theme="AOT"] {
+    --tk-bg:          #0F1A14;
+    --tk-bg-mid:      #131F17;
+    --tk-card:        rgba(20, 42, 28, 0.90);
+    --tk-card-solid:  #182A1E;
+    --tk-elevated:    #223A2A;
+    --tk-accent:      #C9B58A;
+    --tk-accent-dark: #9D8A60;
+    --tk-accent-glow: rgba(201, 181, 138, 0.3);
+    --tk-text:        #F2EFE6;
+    --tk-muted:       #B8C4B4;
+    --tk-border:      rgba(201, 181, 138, 0.18);
+}
+
+/* ---- Naruto theme ---- */
+[data-theme="Naruto"] {
+    --tk-bg:          #0E1424;
+    --tk-bg-mid:      #121A30;
+    --tk-card:        rgba(18, 30, 60, 0.90);
+    --tk-card-solid:  #131E42;
+    --tk-elevated:    #1E2F5E;
+    --tk-accent:      #F57C00;
+    --tk-accent-dark: #C45F00;
+    --tk-accent-glow: rgba(245, 124, 0, 0.3);
+    --tk-text:        #FFF7EC;
+    --tk-muted:       #C2CEDE;
+    --tk-border:      rgba(245, 124, 0, 0.20);
+}
+
+/* ---- Mix theme ---- */
+[data-theme="Campur"] {
+    --tk-bg:          #100E22;
+    --tk-bg-mid:      #14113A;
+    --tk-card:        rgba(22, 18, 55, 0.90);
+    --tk-card-solid:  #161237;
+    --tk-elevated:    #201B50;
+    --tk-accent:      #8B7CF6;
+    --tk-accent-dark: #6352D8;
+    --tk-accent-glow: rgba(139, 124, 246, 0.3);
+    --tk-text:        #F0EEFF;
+    --tk-muted:       #B2ADCE;
+    --tk-border:      rgba(139, 124, 246, 0.18);
+}
+
+/* ============================================================
+   Base
+   ============================================================ */
+html { scroll-behavior: smooth; }
+
+body {
+    background-color: var(--tk-bg);
+    color: var(--tk-text);
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+    font-family: 'Fredoka', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* ============================================================
+   Grid background (checkerboard dots like the reference)
+   ============================================================ */
+.tk-grid-bg {
+    background-image:
+        radial-gradient(circle at 1px 1px, rgba(255,255,255,0.08) 1px, transparent 0);
+    background-size: 32px 32px;
+}
+
+/* ============================================================
+   Cards & Surfaces
+   ============================================================ */
+.tk-surface {
+    background: var(--tk-card);
+    border: 1px solid var(--tk-border);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+.tk-surface-solid {
+    background: var(--tk-card-solid);
+    border: 1px solid var(--tk-border);
+}
+
+/* ============================================================
+   Buttons
+   ============================================================ */
+.tk-btn-primary {
+    background: linear-gradient(135deg, #8B7CF6, #6352D8);
+    color: #fff;
+    border-bottom: 3px solid #4535B8;
+    box-shadow: 0 6px 24px rgba(99, 82, 216, 0.4);
+    transition: filter 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease, border-bottom-width 0.1s ease;
+    min-height: 44px;
+    font-family: 'Fredoka', sans-serif;
+}
+.tk-btn-primary:hover:not(:disabled) {
+    filter: brightness(1.1);
+    box-shadow: 0 8px 32px rgba(99, 82, 216, 0.55);
+}
+.tk-btn-primary:active:not(:disabled) {
+    transform: translateY(2px);
+    border-bottom-width: 1px;
+}
+.tk-btn-primary:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.tk-btn-secondary {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid var(--tk-border);
+    color: var(--tk-text);
+    min-height: 44px;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.tk-btn-secondary:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.tk-btn-gold {
+    background: linear-gradient(135deg, #F4CA4E, #E09B1E);
+    color: #1A1200;
+    border-bottom: 3px solid #B87800;
+    box-shadow: 0 6px 24px rgba(244, 202, 78, 0.35);
+    font-family: 'Fredoka', sans-serif;
+    transition: filter 0.15s ease, transform 0.1s ease, border-bottom-width 0.1s ease;
+    min-height: 44px;
+}
+.tk-btn-gold:hover:not(:disabled) { filter: brightness(1.08); }
+.tk-btn-gold:active:not(:disabled) { transform: translateY(2px); border-bottom-width: 1px; }
+.tk-btn-gold:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* ============================================================
+   Scrapbook card (anime character photo) — decorative torn edge
+   ============================================================ */
+.tk-photo-card {
+    background: #fff;
+    padding: 6px 6px 24px 6px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+}
+.tk-photo-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 22px;
+    background: #fff;
+}
+
+/* ============================================================
+   Speech bubble
+   ============================================================ */
+.tk-speech-bubble {
+    position: relative;
+    background: var(--tk-accent);
+    color: #fff;
+    border-radius: 16px 16px 16px 4px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+}
+.tk-speech-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 12px;
+    border: 8px solid transparent;
+    border-top-color: var(--tk-accent);
+    border-bottom: 0;
+    border-left: 0;
+}
+
+/* ============================================================
+   Scrollbar
+   ============================================================ */
+.tk-scroll::-webkit-scrollbar { width: 5px; }
+.tk-scroll::-webkit-scrollbar-track { background: transparent; }
+.tk-scroll::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.15);
+    border-radius: 9999px;
+}
+
+/* ============================================================
+   Chip / Badge
+   ============================================================ */
+.tk-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+}
+
+/* ============================================================
+   Sticker / Tape decorations
+   ============================================================ */
+.tk-tape {
+    position: absolute;
+    width: 48px;
+    height: 18px;
+    background: rgba(255, 220, 100, 0.55);
+    border-radius: 2px;
+    transform: rotate(-8deg);
+    top: -6px;
+    left: 50%;
+    margin-left: -24px;
+    z-index: 10;
+}
+
+/* ============================================================
+   Stars & sparkles (decorative)
+   ============================================================ */
+@keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50%       { transform: translateY(-10px) rotate(8deg); }
+}
+@keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+@keyframes pulse-glow {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50%       { opacity: 1; transform: scale(1.15); }
+}
+.tk-float   { animation: float 4s ease-in-out infinite; }
+.tk-spin    { animation: spin-slow 12s linear infinite; }
+.tk-pulse   { animation: pulse-glow 2.5s ease-in-out infinite; }
+
+/* ============================================================
+   Input base
+   ============================================================ */
+.tk-input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.30);
+    border: 1px solid var(--tk-border);
+    color: var(--tk-text);
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.tk-input::placeholder { color: var(--tk-muted); }
+.tk-input:focus {
+    border-color: var(--tk-accent);
+    box-shadow: 0 0 0 3px var(--tk-accent-glow);
+}
+
+/* ============================================================
+   Responsive tweaks
+   ============================================================ */
+@media (max-width: 640px) {
+    .tk-photo-card { padding: 4px 4px 18px 4px; }
+}
