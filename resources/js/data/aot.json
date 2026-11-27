@@ -1,0 +1,1597 @@
+[
+  {
+    "id": "aot-eren",
+    "name": "Eren Yeager",
+    "anime": "AOT",
+    "aliases": [
+      "eren",
+      "eren yeager",
+      "eren jaeger"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-mikasa",
+    "name": "Mikasa Ackerman",
+    "anime": "AOT",
+    "aliases": [
+      "mikasa",
+      "mikasa ackerman",
+      "mikasa ackermann"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-armin",
+    "name": "Armin Arlert",
+    "anime": "AOT",
+    "aliases": [
+      "armin",
+      "armin arlert"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-jean",
+    "name": "Jean Kirstein",
+    "anime": "AOT",
+    "aliases": [
+      "jean",
+      "jean kirstein",
+      "horseface"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-connie",
+    "name": "Connie Springer",
+    "anime": "AOT",
+    "aliases": [
+      "connie",
+      "connie springer",
+      "conny springer"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-sasha",
+    "name": "Sasha Blouse",
+    "anime": "AOT",
+    "aliases": [
+      "sasha",
+      "sasha blouse",
+      "sasha braus",
+      "potato girl"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-historia",
+    "name": "Historia Reiss",
+    "anime": "AOT",
+    "aliases": [
+      "historia",
+      "historia reiss",
+      "christa lenz",
+      "krista lenz",
+      "christa",
+      "krista"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-ymir",
+    "name": "Ymir",
+    "anime": "AOT",
+    "aliases": [
+      "ymir",
+      "freckles ymir",
+      "ymir freckles"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-reiner",
+    "name": "Reiner Braun",
+    "anime": "AOT",
+    "aliases": [
+      "reiner",
+      "reiner braun"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-bertholdt",
+    "name": "Bertholdt Hoover",
+    "anime": "AOT",
+    "aliases": [
+      "bertholdt",
+      "bertholdt hoover",
+      "bertolt",
+      "bertolt hoover"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-annie",
+    "name": "Annie Leonhart",
+    "anime": "AOT",
+    "aliases": [
+      "annie",
+      "annie leonhart"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-marco",
+    "name": "Marco Bott",
+    "anime": "AOT",
+    "aliases": [
+      "marco",
+      "marco bott",
+      "marco bodt"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-floch",
+    "name": "Floch Forster",
+    "anime": "AOT",
+    "aliases": [
+      "floch",
+      "floch forster"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-marlo",
+    "name": "Marlo Freudenberg",
+    "anime": "AOT",
+    "aliases": [
+      "marlo",
+      "marlo freudenberg",
+      "marlowe freudenberg",
+      "marlowe"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-hitch",
+    "name": "Hitch Dreyse",
+    "anime": "AOT",
+    "aliases": [
+      "hitch",
+      "hitch dreyse"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-thomas",
+    "name": "Thomas Wagner",
+    "anime": "AOT",
+    "aliases": [
+      "thomas",
+      "thomas wagner"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-mina",
+    "name": "Mina Carolina",
+    "anime": "AOT",
+    "aliases": [
+      "mina",
+      "mina carolina"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-samuel",
+    "name": "Samuel Linke-Jackson",
+    "anime": "AOT",
+    "aliases": [
+      "samuel",
+      "samuel linke-jackson"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-daz",
+    "name": "Daz",
+    "anime": "AOT",
+    "aliases": [
+      "daz"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-levi",
+    "name": "Levi Ackerman",
+    "anime": "AOT",
+    "aliases": [
+      "levi",
+      "levi ackerman",
+      "levi ackermann",
+      "captain levi",
+      "kapten levi"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-erwin",
+    "name": "Erwin Smith",
+    "anime": "AOT",
+    "aliases": [
+      "erwin",
+      "erwin smith",
+      "commander erwin"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-hange",
+    "name": "Hange Zoe",
+    "anime": "AOT",
+    "aliases": [
+      "hange",
+      "hange zoe",
+      "hanji",
+      "hanji zoe",
+      "hange zoë",
+      "hanji zoë"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-miche",
+    "name": "Miche Zacharius",
+    "anime": "AOT",
+    "aliases": [
+      "miche",
+      "miche zacharius",
+      "mike zacharius",
+      "mike"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-moblit",
+    "name": "Moblit Berner",
+    "anime": "AOT",
+    "aliases": [
+      "moblit",
+      "moblit berner"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-petra",
+    "name": "Petra Ral",
+    "anime": "AOT",
+    "aliases": [
+      "petra",
+      "petra ral",
+      "petra rall"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-oluo",
+    "name": "Oluo Bozado",
+    "anime": "AOT",
+    "aliases": [
+      "oluo",
+      "oluo bozado",
+      "auru",
+      "auru bossard"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-eld",
+    "name": "Eld Jinn",
+    "anime": "AOT",
+    "aliases": [
+      "eld",
+      "eld jinn",
+      "erd gin"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-gunther",
+    "name": "Gunther Schultz",
+    "anime": "AOT",
+    "aliases": [
+      "gunther",
+      "gunther schultz"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-nanaba",
+    "name": "Nanaba",
+    "anime": "AOT",
+    "aliases": [
+      "nanaba"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-gelgar",
+    "name": "Gelgar",
+    "anime": "AOT",
+    "aliases": [
+      "gelgar"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-nifa",
+    "name": "Nifa",
+    "anime": "AOT",
+    "aliases": [
+      "nifa"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-keiji",
+    "name": "Keiji",
+    "anime": "AOT",
+    "aliases": [
+      "keiji"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-abel",
+    "name": "Abel",
+    "anime": "AOT",
+    "aliases": [
+      "abel"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-ilse",
+    "name": "Ilse Langnar",
+    "anime": "AOT",
+    "aliases": [
+      "ilse",
+      "ilse langnar"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-louise",
+    "name": "Louise",
+    "anime": "AOT",
+    "aliases": [
+      "louise"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-lobov",
+    "name": "Lobov",
+    "anime": "AOT",
+    "aliases": [
+      "lobov"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-dot-pyxis",
+    "name": "Dot Pyxis",
+    "anime": "AOT",
+    "aliases": [
+      "pyxis",
+      "dot pyxis",
+      "pixis",
+      "dot pixis"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-hannes",
+    "name": "Hannes",
+    "anime": "AOT",
+    "aliases": [
+      "hannes"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-ian",
+    "name": "Ian Dietrich",
+    "anime": "AOT",
+    "aliases": [
+      "ian",
+      "ian dietrich"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-rico",
+    "name": "Rico Brzenska",
+    "anime": "AOT",
+    "aliases": [
+      "rico",
+      "rico brzenska"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-mitabi",
+    "name": "Mitabi Jarnach",
+    "anime": "AOT",
+    "aliases": [
+      "mitabi",
+      "mitabi jarnach"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-kits",
+    "name": "Kitz Woermann",
+    "anime": "AOT",
+    "aliases": [
+      "kitz",
+      "kitz woermann",
+      "kits weilman"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-anzel",
+    "name": "Anka Rheinberger",
+    "anime": "AOT",
+    "aliases": [
+      "anka",
+      "anka rheinberger",
+      "anka reinberger"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-gustav",
+    "name": "Gustav",
+    "anime": "AOT",
+    "aliases": [
+      "gustav"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-keith",
+    "name": "Keith Shadis",
+    "anime": "AOT",
+    "aliases": [
+      "keith",
+      "keith shadis",
+      "shadis"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-nile",
+    "name": "Nile Dok",
+    "anime": "AOT",
+    "aliases": [
+      "nile",
+      "nile dok",
+      "nile dawk"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-darius",
+    "name": "Darius Zackly",
+    "anime": "AOT",
+    "aliases": [
+      "darius",
+      "darius zackly",
+      "zackly"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-boris",
+    "name": "Boris Feulner",
+    "anime": "AOT",
+    "aliases": [
+      "boris",
+      "boris feulner"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-dennis",
+    "name": "Dennis Aiblinger",
+    "anime": "AOT",
+    "aliases": [
+      "dennis",
+      "dennis aiblinger"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-rog",
+    "name": "Roeg",
+    "anime": "AOT",
+    "aliases": [
+      "roeg"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-grisha",
+    "name": "Grisha Yeager",
+    "anime": "AOT",
+    "aliases": [
+      "grisha",
+      "grisha yeager",
+      "grisha jaeger"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-carla",
+    "name": "Carla Yeager",
+    "anime": "AOT",
+    "aliases": [
+      "carla",
+      "carla yeager",
+      "carla jaeger"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-faye",
+    "name": "Faye Yeager",
+    "anime": "AOT",
+    "aliases": [
+      "faye",
+      "faye yeager",
+      "faye jaeger"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-dina",
+    "name": "Dina Fritz",
+    "anime": "AOT",
+    "aliases": [
+      "dina",
+      "dina fritz"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-kenny",
+    "name": "Kenny Ackerman",
+    "anime": "AOT",
+    "aliases": [
+      "kenny",
+      "kenny ackerman",
+      "kenny ackermann",
+      "kenny the ripper"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-traute",
+    "name": "Traute Caven",
+    "anime": "AOT",
+    "aliases": [
+      "traute",
+      "traute caven",
+      "caven"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-rod",
+    "name": "Rod Reiss",
+    "anime": "AOT",
+    "aliases": [
+      "rod",
+      "rod reiss"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-uri",
+    "name": "Uri Reiss",
+    "anime": "AOT",
+    "aliases": [
+      "uri",
+      "uri reiss"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-frieda",
+    "name": "Frieda Reiss",
+    "anime": "AOT",
+    "aliases": [
+      "frieda",
+      "frieda reiss"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-alma",
+    "name": "Alma",
+    "anime": "AOT",
+    "aliases": [
+      "alma"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-kuchel",
+    "name": "Kuchel Ackerman",
+    "anime": "AOT",
+    "aliases": [
+      "kuchel",
+      "kuchel ackerman",
+      "kuchel ackermann"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-djel",
+    "name": "Djel Sannes",
+    "anime": "AOT",
+    "aliases": [
+      "sannes",
+      "djel sannes"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-ralph",
+    "name": "Ralph",
+    "anime": "AOT",
+    "aliases": [
+      "ralph"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-dimo",
+    "name": "Dimo Reeves",
+    "anime": "AOT",
+    "aliases": [
+      "dimo",
+      "dimo reeves"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-flegel",
+    "name": "Flegel Reeves",
+    "anime": "AOT",
+    "aliases": [
+      "flegel",
+      "flegel reeves"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-nick",
+    "name": "Pastor Nick",
+    "anime": "AOT",
+    "aliases": [
+      "nick",
+      "pastor nick",
+      "minister nick"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-artur",
+    "name": "Artur Braus",
+    "anime": "AOT",
+    "aliases": [
+      "artur",
+      "artur braus",
+      "arthur blouse",
+      "arthur braus",
+      "artur blouse"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-lisa",
+    "name": "Lisa Braus",
+    "anime": "AOT",
+    "aliases": [
+      "lisa",
+      "lisa braus",
+      "lisa blouse"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-kaya",
+    "name": "Kaya",
+    "anime": "AOT",
+    "aliases": [
+      "kaya"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-niccolo",
+    "name": "Niccolo",
+    "anime": "AOT",
+    "aliases": [
+      "niccolo",
+      "nicolo"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-yelena",
+    "name": "Yelena",
+    "anime": "AOT",
+    "aliases": [
+      "yelena"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-onyankopon",
+    "name": "Onyankopon",
+    "anime": "AOT",
+    "aliases": [
+      "onyankopon"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-griez",
+    "name": "Griez",
+    "anime": "AOT",
+    "aliases": [
+      "griez"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-kiyomi",
+    "name": "Kiyomi Azumabito",
+    "anime": "AOT",
+    "aliases": [
+      "kiyomi",
+      "kiyomi azumabito",
+      "azumabito"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-fritz",
+    "name": "King Fritz",
+    "anime": "AOT",
+    "aliases": [
+      "king fritz",
+      "ancient king fritz",
+      "raja fritz kuno"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-ymir-fritz",
+    "name": "Ymir Fritz",
+    "anime": "AOT",
+    "aliases": [
+      "ymir fritz",
+      "founder ymir",
+      "founding ymir",
+      "ymir sang pendiri"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-zeke",
+    "name": "Zeke Yeager",
+    "anime": "AOT",
+    "aliases": [
+      "zeke",
+      "zeke yeager",
+      "zeke jaeger"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-pieck",
+    "name": "Pieck Finger",
+    "anime": "AOT",
+    "aliases": [
+      "pieck",
+      "pieck finger"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-porco",
+    "name": "Porco Galliard",
+    "anime": "AOT",
+    "aliases": [
+      "porco",
+      "porco galliard",
+      "pock"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-marcel",
+    "name": "Marcel Galliard",
+    "anime": "AOT",
+    "aliases": [
+      "marcel",
+      "marcel galliard"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-gabi",
+    "name": "Gabi Braun",
+    "anime": "AOT",
+    "aliases": [
+      "gabi",
+      "gabi braun"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-falco",
+    "name": "Falco Grice",
+    "anime": "AOT",
+    "aliases": [
+      "falco",
+      "falco grice"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-colt",
+    "name": "Colt Grice",
+    "anime": "AOT",
+    "aliases": [
+      "colt",
+      "colt grice"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-udo",
+    "name": "Udo",
+    "anime": "AOT",
+    "aliases": [
+      "udo"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-zofia",
+    "name": "Zofia",
+    "anime": "AOT",
+    "aliases": [
+      "zofia",
+      "sophia"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-theo",
+    "name": "Theo Magath",
+    "anime": "AOT",
+    "aliases": [
+      "magath",
+      "theo magath",
+      "commander magath"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-willy",
+    "name": "Willy Tybur",
+    "anime": "AOT",
+    "aliases": [
+      "willy",
+      "willy tybur"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-lara",
+    "name": "Lara Tybur",
+    "anime": "AOT",
+    "aliases": [
+      "lara",
+      "lara tybur"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-tom",
+    "name": "Tom Ksaver",
+    "anime": "AOT",
+    "aliases": [
+      "ksaver",
+      "tom ksaver",
+      "xaver",
+      "tom xaver"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-kruger",
+    "name": "Eren Kruger",
+    "anime": "AOT",
+    "aliases": [
+      "eren kruger",
+      "kruger",
+      "the owl",
+      "owl",
+      "eren krueger"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-gross",
+    "name": "Sergeant Major Gross",
+    "anime": "AOT",
+    "aliases": [
+      "gross",
+      "sergeant gross"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-calvi",
+    "name": "General Calvi",
+    "anime": "AOT",
+    "aliases": [
+      "calvi",
+      "general calvi"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-koslow",
+    "name": "Koslow",
+    "anime": "AOT",
+    "aliases": [
+      "koslow"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-karina",
+    "name": "Karina Braun",
+    "anime": "AOT",
+    "aliases": [
+      "karina",
+      "karina braun"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-ramzi",
+    "name": "Ramzi",
+    "anime": "AOT",
+    "aliases": [
+      "ramzi"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-halil",
+    "name": "Halil",
+    "anime": "AOT",
+    "aliases": [
+      "halil"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-karl-fritz",
+    "name": "Karl Fritz",
+    "anime": "AOT",
+    "aliases": [
+      "karl fritz",
+      "145th king",
+      "raja ke-145"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-isabel",
+    "name": "Isabel Magnolia",
+    "anime": "AOT",
+    "aliases": [
+      "isabel magnolia",
+      "isabel"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-furlan",
+    "name": "Furlan Church",
+    "anime": "AOT",
+    "aliases": [
+      "furlan church",
+      "furlan",
+      "farlan church",
+      "farlan"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-flagon",
+    "name": "Flagon Turret",
+    "anime": "AOT",
+    "aliases": [
+      "flagon turret",
+      "flagon"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-mike-team-lynne",
+    "name": "Lynne",
+    "anime": "AOT",
+    "aliases": [
+      "lynne",
+      "linne"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-henning",
+    "name": "Henning",
+    "anime": "AOT",
+    "aliases": [
+      "henning"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-luke",
+    "name": "Luke Siss",
+    "anime": "AOT",
+    "aliases": [
+      "luke siss",
+      "luke"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-dieter",
+    "name": "Dieter",
+    "anime": "AOT",
+    "aliases": [
+      "dieter"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-jurgen",
+    "name": "Jurgen",
+    "anime": "AOT",
+    "aliases": [
+      "jurgen",
+      "jürgen"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-moses",
+    "name": "Moses Braun",
+    "anime": "AOT",
+    "aliases": [
+      "moses braun",
+      "moses"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-holger",
+    "name": "Holger",
+    "anime": "AOT",
+    "aliases": [
+      "holger"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-wim",
+    "name": "Wim",
+    "anime": "AOT",
+    "aliases": [
+      "wim"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-varis",
+    "name": "Varis",
+    "anime": "AOT",
+    "aliases": [
+      "varis"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-muller",
+    "name": "Muller",
+    "anime": "AOT",
+    "aliases": [
+      "muller",
+      "mueller",
+      "müller"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-ogweno",
+    "name": "Ogweno",
+    "anime": "AOT",
+    "aliases": [
+      "ogweno"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-maria",
+    "name": "Maria Fritz",
+    "anime": "AOT",
+    "aliases": [
+      "maria fritz",
+      "maria"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-rose",
+    "name": "Rose Fritz",
+    "anime": "AOT",
+    "aliases": [
+      "rose fritz",
+      "rose"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-sina",
+    "name": "Sina Fritz",
+    "anime": "AOT",
+    "aliases": [
+      "sina fritz",
+      "sina",
+      "sheena fritz",
+      "sheena"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-mr-yeager",
+    "name": "Mr. Yeager",
+    "anime": "AOT",
+    "aliases": [
+      "mr. yeager",
+      "mr yeager",
+      "grisha's father",
+      "ayah grisha"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-mrs-yeager",
+    "name": "Mrs. Yeager",
+    "anime": "AOT",
+    "aliases": [
+      "mrs. yeager",
+      "mrs yeager",
+      "grisha's mother",
+      "ibu grisha"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-mr-leonhart",
+    "name": "Mr. Leonhart",
+    "anime": "AOT",
+    "aliases": [
+      "mr. leonhart",
+      "mr leonhart",
+      "ayah annie",
+      "annie's father"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "aot-fritz-fake",
+    "name": "False King Fritz",
+    "anime": "AOT",
+    "aliases": [
+      "false king fritz",
+      "fake king fritz",
+      "raja fritz palsu"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-martin",
+    "name": "Martin Springer",
+    "anime": "AOT",
+    "aliases": [
+      "martin springer",
+      "martin"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-sunny",
+    "name": "Sunny Springer",
+    "anime": "AOT",
+    "aliases": [
+      "sunny springer",
+      "sunny"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-connie-mother",
+    "name": "Connie's Mother",
+    "anime": "AOT",
+    "aliases": [
+      "connie's mother",
+      "connie mother",
+      "ibu connie"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-elliot",
+    "name": "Elliot G. Stratmann",
+    "anime": "AOT",
+    "aliases": [
+      "elliot g. stratmann",
+      "elliot",
+      "elliot stratmann"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-carly",
+    "name": "Carly Stratmann",
+    "anime": "AOT",
+    "aliases": [
+      "carly stratmann",
+      "carly"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-peaure",
+    "name": "Peaure",
+    "anime": "AOT",
+    "aliases": [
+      "peaure"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-roy",
+    "name": "Roy",
+    "anime": "AOT",
+    "aliases": [
+      "roy"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-mikasa-mother",
+    "name": "Mikasa's Mother",
+    "anime": "AOT",
+    "aliases": [
+      "mikasa's mother",
+      "ibu mikasa"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-mikasa-father",
+    "name": "Mikasa's Father",
+    "anime": "AOT",
+    "aliases": [
+      "mikasa's father",
+      "ayah mikasa"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-nac",
+    "name": "Nac Tias",
+    "anime": "AOT",
+    "aliases": [
+      "nac",
+      "nac tias"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "aot-milius",
+    "name": "Milius Zeremski",
+    "anime": "AOT",
+    "aliases": [
+      "milius",
+      "milius zeremski"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  }
+]

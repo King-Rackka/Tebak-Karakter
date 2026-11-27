@@ -1,0 +1,2373 @@
+[
+  {
+    "id": "naruto-naruto",
+    "name": "Naruto Uzumaki",
+    "anime": "Naruto",
+    "aliases": [
+      "naruto",
+      "naruto uzumaki",
+      "seventh hokage",
+      "hokage ke-7",
+      "7th hokage"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-sasuke",
+    "name": "Sasuke Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "sasuke",
+      "sasuke uchiha"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-sakura",
+    "name": "Sakura Haruno",
+    "anime": "Naruto",
+    "aliases": [
+      "sakura",
+      "sakura haruno"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kakashi",
+    "name": "Kakashi Hatake",
+    "anime": "Naruto",
+    "aliases": [
+      "kakashi",
+      "kakashi hatake",
+      "copy ninja",
+      "sixth hokage",
+      "hokage ke-6",
+      "6th hokage"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hinata",
+    "name": "Hinata Hyuga",
+    "anime": "Naruto",
+    "aliases": [
+      "hinata",
+      "hinata hyuga",
+      "hinata hyuuga"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shikamaru",
+    "name": "Shikamaru Nara",
+    "anime": "Naruto",
+    "aliases": [
+      "shikamaru",
+      "shikamaru nara"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-ino",
+    "name": "Ino Yamanaka",
+    "anime": "Naruto",
+    "aliases": [
+      "ino",
+      "ino yamanaka"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-choji",
+    "name": "Choji Akimichi",
+    "anime": "Naruto",
+    "aliases": [
+      "choji",
+      "choji akimichi",
+      "chouji",
+      "chouji akimichi"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-rock-lee",
+    "name": "Rock Lee",
+    "anime": "Naruto",
+    "aliases": [
+      "rock lee",
+      "lee"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-neji",
+    "name": "Neji Hyuga",
+    "anime": "Naruto",
+    "aliases": [
+      "neji",
+      "neji hyuga",
+      "neji hyuuga"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-tenten",
+    "name": "Tenten",
+    "anime": "Naruto",
+    "aliases": [
+      "tenten",
+      "ten ten"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kiba",
+    "name": "Kiba Inuzuka",
+    "anime": "Naruto",
+    "aliases": [
+      "kiba",
+      "kiba inuzuka"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shino",
+    "name": "Shino Aburame",
+    "anime": "Naruto",
+    "aliases": [
+      "shino",
+      "shino aburame"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-sai",
+    "name": "Sai",
+    "anime": "Naruto",
+    "aliases": [
+      "sai",
+      "sai yamanaka"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-yamato",
+    "name": "Yamato",
+    "anime": "Naruto",
+    "aliases": [
+      "yamato",
+      "tenzo",
+      "captain yamato"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-might-guy",
+    "name": "Might Guy",
+    "anime": "Naruto",
+    "aliases": [
+      "might guy",
+      "guy",
+      "maito gai",
+      "gai",
+      "guy sensei"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-asuma",
+    "name": "Asuma Sarutobi",
+    "anime": "Naruto",
+    "aliases": [
+      "asuma",
+      "asuma sarutobi"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kurenai",
+    "name": "Kurenai Yuhi",
+    "anime": "Naruto",
+    "aliases": [
+      "kurenai",
+      "kurenai yuhi",
+      "kurenai sarutobi"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-iruka",
+    "name": "Iruka Umino",
+    "anime": "Naruto",
+    "aliases": [
+      "iruka",
+      "iruka umino",
+      "iruka sensei"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-jiraiya",
+    "name": "Jiraiya",
+    "anime": "Naruto",
+    "aliases": [
+      "jiraiya",
+      "ero sennin",
+      "pervy sage"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-tsunade",
+    "name": "Tsunade",
+    "anime": "Naruto",
+    "aliases": [
+      "tsunade",
+      "tsunade senju",
+      "lady tsunade",
+      "godai hokage",
+      "fifth hokage",
+      "hokage ke-5",
+      "5th hokage"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-orochimaru",
+    "name": "Orochimaru",
+    "anime": "Naruto",
+    "aliases": [
+      "orochimaru"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kabuto",
+    "name": "Kabuto Yakushi",
+    "anime": "Naruto",
+    "aliases": [
+      "kabuto",
+      "kabuto yakushi"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-minato",
+    "name": "Minato Namikaze",
+    "anime": "Naruto",
+    "aliases": [
+      "minato",
+      "minato namikaze",
+      "yellow flash",
+      "yondaime",
+      "fourth hokage",
+      "hokage ke-4",
+      "4th hokage"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kushina",
+    "name": "Kushina Uzumaki",
+    "anime": "Naruto",
+    "aliases": [
+      "kushina",
+      "kushina uzumaki"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hiruzen",
+    "name": "Hiruzen Sarutobi",
+    "anime": "Naruto",
+    "aliases": [
+      "hiruzen",
+      "hiruzen sarutobi",
+      "third hokage",
+      "sandaime",
+      "hokage ke-3",
+      "3rd hokage"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hashirama",
+    "name": "Hashirama Senju",
+    "anime": "Naruto",
+    "aliases": [
+      "hashirama",
+      "hashirama senju",
+      "first hokage",
+      "shodaime",
+      "hokage ke-1",
+      "1st hokage"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-tobirama",
+    "name": "Tobirama Senju",
+    "anime": "Naruto",
+    "aliases": [
+      "tobirama",
+      "tobirama senju",
+      "second hokage",
+      "nidaime",
+      "hokage ke-2",
+      "2nd hokage"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-itachi",
+    "name": "Itachi Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "itachi",
+      "itachi uchiha"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-obito",
+    "name": "Obito Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "obito",
+      "obito uchiha",
+      "tobi"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-madara",
+    "name": "Madara Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "madara",
+      "madara uchiha"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-nagato",
+    "name": "Nagato",
+    "anime": "Naruto",
+    "aliases": [
+      "nagato",
+      "pain",
+      "pein",
+      "nagato uzumaki"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-konan",
+    "name": "Konan",
+    "anime": "Naruto",
+    "aliases": [
+      "konan"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kisame",
+    "name": "Kisame Hoshigaki",
+    "anime": "Naruto",
+    "aliases": [
+      "kisame",
+      "kisame hoshigaki"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-deidara",
+    "name": "Deidara",
+    "anime": "Naruto",
+    "aliases": [
+      "deidara"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-sasori",
+    "name": "Sasori",
+    "anime": "Naruto",
+    "aliases": [
+      "sasori",
+      "sasori of the red sand"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hidan",
+    "name": "Hidan",
+    "anime": "Naruto",
+    "aliases": [
+      "hidan"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kakuzu",
+    "name": "Kakuzu",
+    "anime": "Naruto",
+    "aliases": [
+      "kakuzu"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gaara",
+    "name": "Gaara",
+    "anime": "Naruto",
+    "aliases": [
+      "gaara",
+      "sabaku no gaara",
+      "fifth kazekage",
+      "kazekage ke-5",
+      "godaime kazekage",
+      "5th kazekage"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-temari",
+    "name": "Temari",
+    "anime": "Naruto",
+    "aliases": [
+      "temari",
+      "temari nara"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kankuro",
+    "name": "Kankuro",
+    "anime": "Naruto",
+    "aliases": [
+      "kankuro",
+      "kankurou"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-killer-bee",
+    "name": "Killer Bee",
+    "anime": "Naruto",
+    "aliases": [
+      "killer bee",
+      "killer b",
+      "bee"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-zabuza",
+    "name": "Zabuza Momochi",
+    "anime": "Naruto",
+    "aliases": [
+      "zabuza",
+      "zabuza momochi"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-haku",
+    "name": "Haku",
+    "anime": "Naruto",
+    "aliases": [
+      "haku"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-danzo",
+    "name": "Danzo Shimura",
+    "anime": "Naruto",
+    "aliases": [
+      "danzo",
+      "danzo shimura",
+      "danzou"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shisui",
+    "name": "Shisui Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "shisui",
+      "shisui uchiha"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-kaguya",
+    "name": "Kaguya Otsutsuki",
+    "anime": "Naruto",
+    "aliases": [
+      "kaguya",
+      "kaguya otsutsuki",
+      "kaguya ootsutsuki"
+    ],
+    "difficulty": "easy",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-konohamaru",
+    "name": "Konohamaru Sarutobi",
+    "anime": "Naruto",
+    "aliases": [
+      "konohamaru",
+      "konohamaru sarutobi"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kurama",
+    "name": "Kurama",
+    "anime": "Naruto",
+    "aliases": [
+      "kurama",
+      "kyuubi",
+      "kyubi",
+      "nine tails",
+      "ekor 9"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-akamaru",
+    "name": "Akamaru",
+    "anime": "Naruto",
+    "aliases": [
+      "akamaru"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gamabunta",
+    "name": "Gamabunta",
+    "anime": "Naruto",
+    "aliases": [
+      "gamabunta"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shukaku",
+    "name": "Shukaku",
+    "anime": "Naruto",
+    "aliases": [
+      "shukaku",
+      "one tail",
+      "ichibi",
+      "ekor 1"
+    ],
+    "difficulty": "easy",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shizune",
+    "name": "Shizune",
+    "anime": "Naruto",
+    "aliases": [
+      "shizune"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-yahiko",
+    "name": "Yahiko",
+    "anime": "Naruto",
+    "aliases": [
+      "yahiko"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-zetsu",
+    "name": "Zetsu",
+    "anime": "Naruto",
+    "aliases": [
+      "zetsu",
+      "black zetsu",
+      "white zetsu"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-suigetsu",
+    "name": "Suigetsu Hozuki",
+    "anime": "Naruto",
+    "aliases": [
+      "suigetsu",
+      "suigetsu hozuki"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-karin",
+    "name": "Karin",
+    "anime": "Naruto",
+    "aliases": [
+      "karin",
+      "karin uzumaki"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-jugo",
+    "name": "Jugo",
+    "anime": "Naruto",
+    "aliases": [
+      "jugo",
+      "juugo"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kimimaro",
+    "name": "Kimimaro",
+    "anime": "Naruto",
+    "aliases": [
+      "kimimaro",
+      "kimimaro kaguya"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-chiyo",
+    "name": "Chiyo",
+    "anime": "Naruto",
+    "aliases": [
+      "chiyo",
+      "lady chiyo",
+      "nenek chiyo"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-ay",
+    "name": "A (Fourth Raikage)",
+    "anime": "Naruto",
+    "aliases": [
+      "fourth raikage",
+      "raikage ke-4",
+      "4th raikage",
+      "yondaime raikage"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-mei",
+    "name": "Mei Terumi",
+    "anime": "Naruto",
+    "aliases": [
+      "mei",
+      "mei terumi",
+      "fifth mizukage",
+      "mizukage ke-5",
+      "5th mizukage"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-onoki",
+    "name": "Onoki",
+    "anime": "Naruto",
+    "aliases": [
+      "onoki",
+      "ohnoki",
+      "third tsuchikage",
+      "tsuchikage ke-3",
+      "3rd tsuchikage"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-darui",
+    "name": "Darui",
+    "anime": "Naruto",
+    "aliases": [
+      "darui"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-anko",
+    "name": "Anko Mitarashi",
+    "anime": "Naruto",
+    "aliases": [
+      "anko",
+      "anko mitarashi"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-ibiki",
+    "name": "Ibiki Morino",
+    "anime": "Naruto",
+    "aliases": [
+      "ibiki",
+      "ibiki morino"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-rin",
+    "name": "Rin Nohara",
+    "anime": "Naruto",
+    "aliases": [
+      "rin",
+      "rin nohara"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shikaku",
+    "name": "Shikaku Nara",
+    "anime": "Naruto",
+    "aliases": [
+      "shikaku",
+      "shikaku nara"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-inoichi",
+    "name": "Inoichi Yamanaka",
+    "anime": "Naruto",
+    "aliases": [
+      "inoichi",
+      "inoichi yamanaka"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-choza",
+    "name": "Choza Akimichi",
+    "anime": "Naruto",
+    "aliases": [
+      "choza",
+      "choza akimichi",
+      "chouza"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hiashi",
+    "name": "Hiashi Hyuga",
+    "anime": "Naruto",
+    "aliases": [
+      "hiashi",
+      "hiashi hyuga",
+      "hiashi hyuuga"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-fugaku",
+    "name": "Fugaku Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "fugaku",
+      "fugaku uchiha"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-mikoto",
+    "name": "Mikoto Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "mikoto",
+      "mikoto uchiha"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hagoromo",
+    "name": "Hagoromo Otsutsuki",
+    "anime": "Naruto",
+    "aliases": [
+      "hagoromo",
+      "hagoromo otsutsuki",
+      "sage of six paths",
+      "rikudo sennin"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-indra",
+    "name": "Indra Otsutsuki",
+    "anime": "Naruto",
+    "aliases": [
+      "indra",
+      "indra otsutsuki"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-ashura",
+    "name": "Ashura Otsutsuki",
+    "anime": "Naruto",
+    "aliases": [
+      "ashura",
+      "asura",
+      "ashura otsutsuki"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-hanabi",
+    "name": "Hanabi Hyuga",
+    "anime": "Naruto",
+    "aliases": [
+      "hanabi",
+      "hanabi hyuga"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-teuchi",
+    "name": "Teuchi",
+    "anime": "Naruto",
+    "aliases": [
+      "teuchi",
+      "ramen guy",
+      "ichiraku"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-mifune",
+    "name": "Mifune",
+    "anime": "Naruto",
+    "aliases": [
+      "mifune"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-genma",
+    "name": "Genma Shiranui",
+    "anime": "Naruto",
+    "aliases": [
+      "genma",
+      "genma shiranui"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hayate",
+    "name": "Hayate Gekko",
+    "anime": "Naruto",
+    "aliases": [
+      "hayate",
+      "hayate gekko"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-might-duy",
+    "name": "Might Duy",
+    "anime": "Naruto",
+    "aliases": [
+      "might duy",
+      "duy",
+      "maito dai",
+      "dai"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-sakumo",
+    "name": "Sakumo Hatake",
+    "anime": "Naruto",
+    "aliases": [
+      "sakumo",
+      "sakumo hatake",
+      "white fang"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-utakata",
+    "name": "Utakata",
+    "anime": "Naruto",
+    "aliases": [
+      "utakata"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-yagura",
+    "name": "Yagura Karatachi",
+    "anime": "Naruto",
+    "aliases": [
+      "yagura",
+      "yagura karatachi",
+      "fourth mizukage",
+      "mizukage ke-4",
+      "yondaime mizukage",
+      "4th mizukage"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hanzo",
+    "name": "Hanzo",
+    "anime": "Naruto",
+    "aliases": [
+      "hanzo",
+      "hanzo of the salamander"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-mu",
+    "name": "Mu",
+    "anime": "Naruto",
+    "aliases": [
+      "mu",
+      "muu",
+      "second tsuchikage",
+      "tsuchikage ke-2",
+      "2nd tsuchikage"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gengetsu",
+    "name": "Gengetsu Hozuki",
+    "anime": "Naruto",
+    "aliases": [
+      "gengetsu",
+      "gengetsu hozuki",
+      "second mizukage",
+      "mizukage ke-2",
+      "2nd mizukage"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-rasa",
+    "name": "Rasa",
+    "anime": "Naruto",
+    "aliases": [
+      "rasa",
+      "fourth kazekage",
+      "kazekage ke-4",
+      "4th kazekage"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-matatabi",
+    "name": "Matatabi",
+    "anime": "Naruto",
+    "aliases": [
+      "matatabi",
+      "two tails",
+      "nibi",
+      "ekor 2"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-isobu",
+    "name": "Isobu",
+    "anime": "Naruto",
+    "aliases": [
+      "isobu",
+      "three tails",
+      "sanbi",
+      "ekor 3"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-son-goku",
+    "name": "Son Goku",
+    "anime": "Naruto",
+    "aliases": [
+      "son goku",
+      "four tails",
+      "yonbi",
+      "ekor 4"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gyuki",
+    "name": "Gyuki",
+    "anime": "Naruto",
+    "aliases": [
+      "gyuki",
+      "gyuuki",
+      "eight tails",
+      "hachibi",
+      "ekor 8"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-jubi",
+    "name": "Jubi",
+    "anime": "Naruto",
+    "aliases": [
+      "jubi",
+      "juubi",
+      "ten tails",
+      "ekor 10"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-gamakichi",
+    "name": "Gamakichi",
+    "anime": "Naruto",
+    "aliases": [
+      "gamakichi"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gamatatsu",
+    "name": "Gamatatsu",
+    "anime": "Naruto",
+    "aliases": [
+      "gamatatsu"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-katsuyu",
+    "name": "Katsuyu",
+    "anime": "Naruto",
+    "aliases": [
+      "katsuyu"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-manda",
+    "name": "Manda",
+    "anime": "Naruto",
+    "aliases": [
+      "manda"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-pakkun",
+    "name": "Pakkun",
+    "anime": "Naruto",
+    "aliases": [
+      "pakkun"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-fukasaku",
+    "name": "Fukasaku",
+    "anime": "Naruto",
+    "aliases": [
+      "fukasaku",
+      "pa"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shima",
+    "name": "Shima",
+    "anime": "Naruto",
+    "aliases": [
+      "shima",
+      "ma"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-enma",
+    "name": "Enma",
+    "anime": "Naruto",
+    "aliases": [
+      "enma",
+      "monkey king enma"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-tonton",
+    "name": "Tonton",
+    "anime": "Naruto",
+    "aliases": [
+      "tonton"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-mito-uzumaki",
+    "name": "Mito Uzumaki",
+    "anime": "Naruto",
+    "aliases": [
+      "mito uzumaki",
+      "mito"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-guren",
+    "name": "Guren",
+    "anime": "Naruto",
+    "aliases": [
+      "guren"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-sora",
+    "name": "Sora",
+    "anime": "Naruto",
+    "aliases": [
+      "sora"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-a-third-raikage",
+    "name": "A (Third Raikage)",
+    "anime": "Naruto",
+    "aliases": [
+      "a (third raikage)",
+      "third raikage",
+      "3rd raikage",
+      "raikage ke-3",
+      "sandaime raikage"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-juzo-biwa",
+    "name": "Juzo Biwa",
+    "anime": "Naruto",
+    "aliases": [
+      "juzo biwa",
+      "juzo",
+      "juuzou"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-raiga-kurosuki",
+    "name": "Raiga Kurosuki",
+    "anime": "Naruto",
+    "aliases": [
+      "raiga kurosuki",
+      "raiga"
+    ],
+    "difficulty": "medium",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-toneri-otsutsuki",
+    "name": "Toneri Otsutsuki",
+    "anime": "Naruto",
+    "aliases": [
+      "toneri otsutsuki",
+      "toneri",
+      "toneri ootsutsuki"
+    ],
+    "difficulty": "medium",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-tayuya",
+    "name": "Tayuya",
+    "anime": "Naruto",
+    "aliases": [
+      "tayuya"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-sakon",
+    "name": "Sakon and Ukon",
+    "anime": "Naruto",
+    "aliases": [
+      "sakon",
+      "ukon",
+      "sakon and ukon"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kidomaru",
+    "name": "Kidomaru",
+    "anime": "Naruto",
+    "aliases": [
+      "kidomaru",
+      "kidoumaru"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-jirobo",
+    "name": "Jirobo",
+    "anime": "Naruto",
+    "aliases": [
+      "jirobo",
+      "jirobou"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-dosu",
+    "name": "Dosu Kinuta",
+    "anime": "Naruto",
+    "aliases": [
+      "dosu",
+      "dosu kinuta"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-zaku",
+    "name": "Zaku Abumi",
+    "anime": "Naruto",
+    "aliases": [
+      "zaku",
+      "zaku abumi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kin",
+    "name": "Kin Tsuchi",
+    "anime": "Naruto",
+    "aliases": [
+      "kin",
+      "kin tsuchi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-izumo",
+    "name": "Izumo Kamizuki",
+    "anime": "Naruto",
+    "aliases": [
+      "izumo",
+      "izumo kamizuki"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kotetsu",
+    "name": "Kotetsu Hagane",
+    "anime": "Naruto",
+    "aliases": [
+      "kotetsu",
+      "kotetsu hagane"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-aoba",
+    "name": "Aoba Yamashiro",
+    "anime": "Naruto",
+    "aliases": [
+      "aoba",
+      "aoba yamashiro"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-raido",
+    "name": "Raido Namiashi",
+    "anime": "Naruto",
+    "aliases": [
+      "raido",
+      "raido namiashi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-ebisu",
+    "name": "Ebisu",
+    "anime": "Naruto",
+    "aliases": [
+      "ebisu"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-mizuki",
+    "name": "Mizuki",
+    "anime": "Naruto",
+    "aliases": [
+      "mizuki"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-baki",
+    "name": "Baki",
+    "anime": "Naruto",
+    "aliases": [
+      "baki"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-ebizo",
+    "name": "Ebizo",
+    "anime": "Naruto",
+    "aliases": [
+      "ebizo"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-yugito",
+    "name": "Yugito Nii",
+    "anime": "Naruto",
+    "aliases": [
+      "yugito",
+      "yugito nii"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-roshi",
+    "name": "Roshi",
+    "anime": "Naruto",
+    "aliases": [
+      "roshi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-han",
+    "name": "Han",
+    "anime": "Naruto",
+    "aliases": [
+      "han"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-fuu",
+    "name": "Fuu",
+    "anime": "Naruto",
+    "aliases": [
+      "fuu",
+      "fu"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-cee",
+    "name": "C (Cee)",
+    "anime": "Naruto",
+    "aliases": [
+      "cee",
+      "c",
+      "shee"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-omoi",
+    "name": "Omoi",
+    "anime": "Naruto",
+    "aliases": [
+      "omoi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-karui",
+    "name": "Karui",
+    "anime": "Naruto",
+    "aliases": [
+      "karui"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-samui",
+    "name": "Samui",
+    "anime": "Naruto",
+    "aliases": [
+      "samui"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kurotsuchi",
+    "name": "Kurotsuchi",
+    "anime": "Naruto",
+    "aliases": [
+      "kurotsuchi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-akatsuchi",
+    "name": "Akatsuchi",
+    "anime": "Naruto",
+    "aliases": [
+      "akatsuchi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-chojuro",
+    "name": "Chojuro",
+    "anime": "Naruto",
+    "aliases": [
+      "chojuro",
+      "choujuurou"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-ao",
+    "name": "Ao",
+    "anime": "Naruto",
+    "aliases": [
+      "ao"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kinkaku",
+    "name": "Kinkaku",
+    "anime": "Naruto",
+    "aliases": [
+      "kinkaku"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-ginkaku",
+    "name": "Ginkaku",
+    "anime": "Naruto",
+    "aliases": [
+      "ginkaku"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-mangetsu",
+    "name": "Mangetsu Hozuki",
+    "anime": "Naruto",
+    "aliases": [
+      "mangetsu",
+      "mangetsu hozuki"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hizashi",
+    "name": "Hizashi Hyuga",
+    "anime": "Naruto",
+    "aliases": [
+      "hizashi",
+      "hizashi hyuga"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-nawaki",
+    "name": "Nawaki",
+    "anime": "Naruto",
+    "aliases": [
+      "nawaki"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-dan-kato",
+    "name": "Dan Kato",
+    "anime": "Naruto",
+    "aliases": [
+      "dan",
+      "dan kato"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-moegi",
+    "name": "Moegi Kazamatsuri",
+    "anime": "Naruto",
+    "aliases": [
+      "moegi",
+      "moegi kazamatsuri"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-udon",
+    "name": "Udon Ise",
+    "anime": "Naruto",
+    "aliases": [
+      "udon",
+      "udon ise"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-ayame",
+    "name": "Ayame",
+    "anime": "Naruto",
+    "aliases": [
+      "ayame"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-tazuna",
+    "name": "Tazuna",
+    "anime": "Naruto",
+    "aliases": [
+      "tazuna"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-inari",
+    "name": "Inari",
+    "anime": "Naruto",
+    "aliases": [
+      "inari"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-yoroi",
+    "name": "Yoroi Akado",
+    "anime": "Naruto",
+    "aliases": [
+      "yoroi",
+      "yoroi akado"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-misumi",
+    "name": "Misumi Tsurugi",
+    "anime": "Naruto",
+    "aliases": [
+      "misumi",
+      "misumi tsurugi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-torune",
+    "name": "Torune Aburame",
+    "anime": "Naruto",
+    "aliases": [
+      "torune",
+      "torune aburame"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-fu-yamanaka",
+    "name": "Fu Yamanaka",
+    "anime": "Naruto",
+    "aliases": [
+      "fu yamanaka",
+      "fuu yamanaka"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-pakura",
+    "name": "Pakura",
+    "anime": "Naruto",
+    "aliases": [
+      "pakura"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gato",
+    "name": "Gato",
+    "anime": "Naruto",
+    "aliases": [
+      "gato",
+      "gatou"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-izuna",
+    "name": "Izuna Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "izuna",
+      "izuna uchiha"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-hamura",
+    "name": "Hamura Otsutsuki",
+    "anime": "Naruto",
+    "aliases": [
+      "hamura",
+      "hamura otsutsuki"
+    ],
+    "difficulty": "hard",
+    "spoiler": true,
+    "image": ""
+  },
+  {
+    "id": "naruto-kokuo",
+    "name": "Kokuo",
+    "anime": "Naruto",
+    "aliases": [
+      "kokuo",
+      "kokuou",
+      "five tails",
+      "gobi",
+      "ekor 5"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-saiken",
+    "name": "Saiken",
+    "anime": "Naruto",
+    "aliases": [
+      "saiken",
+      "six tails",
+      "rokubi",
+      "ekor 6"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-chomei",
+    "name": "Chomei",
+    "anime": "Naruto",
+    "aliases": [
+      "chomei",
+      "choumei",
+      "seven tails",
+      "nanabi",
+      "ekor 7"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gamaken",
+    "name": "Gamaken",
+    "anime": "Naruto",
+    "aliases": [
+      "gamaken"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gamahiro",
+    "name": "Gamahiro",
+    "anime": "Naruto",
+    "aliases": [
+      "gamahiro"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-aoda",
+    "name": "Aoda",
+    "anime": "Naruto",
+    "aliases": [
+      "aoda"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-baku",
+    "name": "Baku",
+    "anime": "Naruto",
+    "aliases": [
+      "baku"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gerotora",
+    "name": "Gerotora",
+    "anime": "Naruto",
+    "aliases": [
+      "gerotora"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-yota",
+    "name": "Yota",
+    "anime": "Naruto",
+    "aliases": [
+      "yota",
+      "youta"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-yukimaru",
+    "name": "Yukimaru",
+    "anime": "Naruto",
+    "aliases": [
+      "yukimaru",
+      "yuukimaru"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kosuke-maruboshi",
+    "name": "Kosuke Maruboshi",
+    "anime": "Naruto",
+    "aliases": [
+      "kosuke maruboshi",
+      "kosuke",
+      "kousuke"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-butsuma-senju",
+    "name": "Butsuma Senju",
+    "anime": "Naruto",
+    "aliases": [
+      "butsuma senju",
+      "butsuma"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-tajima-uchiha",
+    "name": "Tajima Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "tajima uchiha",
+      "tajima"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kagami-uchiha",
+    "name": "Kagami Uchiha",
+    "anime": "Naruto",
+    "aliases": [
+      "kagami uchiha",
+      "kagami"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-torifu-akimichi",
+    "name": "Torifu Akimichi",
+    "anime": "Naruto",
+    "aliases": [
+      "torifu akimichi",
+      "torifu"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-homura-mitokado",
+    "name": "Homura Mitokado",
+    "anime": "Naruto",
+    "aliases": [
+      "homura mitokado",
+      "homura"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-koharu-utatane",
+    "name": "Koharu Utatane",
+    "anime": "Naruto",
+    "aliases": [
+      "koharu utatane",
+      "koharu"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shibi-aburame",
+    "name": "Shibi Aburame",
+    "anime": "Naruto",
+    "aliases": [
+      "shibi aburame",
+      "shibi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-tsume-inuzuka",
+    "name": "Tsume Inuzuka",
+    "anime": "Naruto",
+    "aliases": [
+      "tsume inuzuka",
+      "tsume"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hana-inuzuka",
+    "name": "Hana Inuzuka",
+    "anime": "Naruto",
+    "aliases": [
+      "hana inuzuka",
+      "hana"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kizashi-haruno",
+    "name": "Kizashi Haruno",
+    "anime": "Naruto",
+    "aliases": [
+      "kizashi haruno",
+      "kizashi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-mebuki-haruno",
+    "name": "Mebuki Haruno",
+    "anime": "Naruto",
+    "aliases": [
+      "mebuki haruno",
+      "mebuki"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shizuka",
+    "name": "Shizuka",
+    "anime": "Naruto",
+    "aliases": [
+      "shizuka"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-hotaru",
+    "name": "Hotaru",
+    "anime": "Naruto",
+    "aliases": [
+      "hotaru"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shin-sai-s-brother",
+    "name": "Shin (Sai's Brother)",
+    "anime": "Naruto",
+    "aliases": [
+      "shin (sai's brother)",
+      "shin",
+      "sai's brother"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-chukichi",
+    "name": "Chukichi",
+    "anime": "Naruto",
+    "aliases": [
+      "chukichi",
+      "chuukichi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-gari",
+    "name": "Gari",
+    "anime": "Naruto",
+    "aliases": [
+      "gari"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-toroi",
+    "name": "Toroi",
+    "anime": "Naruto",
+    "aliases": [
+      "toroi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-shamon",
+    "name": "Shamon",
+    "anime": "Naruto",
+    "aliases": [
+      "shamon",
+      "second kazekage",
+      "2nd kazekage",
+      "kazekage ke-2",
+      "nidaime kazekage"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-bunpuku",
+    "name": "Bunpuku",
+    "anime": "Naruto",
+    "aliases": [
+      "bunpuku"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-blue-b",
+    "name": "Blue B / Fukai",
+    "anime": "Naruto",
+    "aliases": [
+      "blue b",
+      "blue bee",
+      "Fukai"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-fuguki-suikazan",
+    "name": "Fuguki Suikazan",
+    "anime": "Naruto",
+    "aliases": [
+      "fuguki suikazan",
+      "fuguki"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-jinpachi-munashi",
+    "name": "Jinpachi Munashi",
+    "anime": "Naruto",
+    "aliases": [
+      "jinpachi munashi",
+      "jinpachi"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-kushimaru-kuriarare",
+    "name": "Kushimaru Kuriarare",
+    "anime": "Naruto",
+    "aliases": [
+      "kushimaru kuriarare",
+      "kushimaru"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-jinin-akebino",
+    "name": "Jinin Akebino",
+    "anime": "Naruto",
+    "aliases": [
+      "jinin akebino",
+      "jinin"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  },
+  {
+    "id": "naruto-ameyuri-ringo",
+    "name": "Ameyuri Ringo",
+    "anime": "Naruto",
+    "aliases": [
+      "ameyuri ringo",
+      "ameyuri"
+    ],
+    "difficulty": "hard",
+    "spoiler": false,
+    "image": ""
+  }
+]

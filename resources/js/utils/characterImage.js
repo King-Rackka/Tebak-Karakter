@@ -1,5 +1,5 @@
-import aotData from '../../../storage/app/characters/aot.json';
-import narutoData from '../../../storage/app/characters/naruto.json';
+import aotData from '../data/aot.json';
+import narutoData from '../data/naruto.json';
 
 const CACHE_PREFIX = 'tk_wiki_char_v6_';
 const memoryCache = new Map();
