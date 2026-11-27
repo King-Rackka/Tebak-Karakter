@@ -432,7 +432,7 @@ export function HomePage({
           onClick={() => setActiveModal(null)}
           role="dialog"
           aria-modal="true"
-          className="fixed inset-0 z-50 bg-[#070612]/80 backdrop-blur-sm flex items-end sm:items-center justify-center p-3 sm:p-4"
+          className="fixed inset-0 z-50 bg-[#070612]/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4"
         >
           <div
             onClick={(e) => e.stopPropagation()}
