@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,7 +14,12 @@ class AppServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        if ($this->app->environment('production') || isset($_SERVER['VERCEL'])) {
+        $host = request()->getHost();
+        $isLocal = in_array($host, ['localhost', '127.0.0.1'], true)
+            || str_ends_with($host, '.test')
+            || str_ends_with($host, '.local');
+
+        if (! $isLocal) {
             URL::forceScheme('https');
         }
     }
