@@ -4,6 +4,8 @@ const SETUP_IMAGES = {
   luffy: '/images/setup/luffy-setup.png',
   AOT: '/images/setup/aot-card.jpg',
   Naruto: '/images/setup/naruto-card.jpg',
+  OnePiece: '/images/setup/onepiece-card.jpg',
+  jujutsukaisen: '/images/setup/jujutsukaisen-card.jpg',
   mix: '/images/setup/mix-card.jpg',
 };
 
@@ -49,7 +51,10 @@ export function SetupRoomPage({
     );
 
   const availableIds = useMemo(
-    () => (themes.length > 0 ? themes.map((t) => t.id) : ['AOT', 'Naruto']),
+    () =>
+      themes.length > 0
+        ? themes.map((t) => t.id)
+        : ['AOT', 'Naruto', 'OnePiece', 'JujutsuKaisen'],
     [themes]
   );
 
@@ -89,18 +94,24 @@ export function SetupRoomPage({
       themes.length > 0
         ? themes
         : [
-            { id: 'AOT', name: 'Attack on Titan', total: 96, nonSpoilerTotal: 96 },
+            { id: 'AOT', name: 'Attack on Titan', total: 96, nonSpoilerTotal: 84 },
             { id: 'Naruto', name: 'Naruto', total: 131, nonSpoilerTotal: 131 },
+            { id: 'OnePiece', name: 'One Piece', total: 221, nonSpoilerTotal: 185 },
+            { id: 'JujutsuKaisen', name: 'Jujutsu Kaisen', total: 100, nonSpoilerTotal: 67 },
           ];
 
     const mapped = baseThemes.map((t) => ({
       id: t.id,
       label:
-        t.id === 'AOT'
-          ? 'Attack on Titan'
-          : t.id === 'Naruto'
-          ? 'Naruto'
-          : t.name,
+      t.id === 'AOT'
+        ? 'Attack on Titan'
+        : t.id === 'Naruto'
+        ? 'Naruto'
+        : t.id === 'OnePiece'
+        ? 'One Piece'
+        : t.id === 'JujutsuKaisen'
+        ? 'Jujutsu Kaisen'
+        : t.name,
       total: hideSpoilers ? t.nonSpoilerTotal ?? t.total : t.total,
       image: SETUP_IMAGES[t.id] || `/images/setup/${t.id.toLowerCase()}-card.jpg`,
       fallbackImage:
