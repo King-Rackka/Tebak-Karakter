@@ -304,7 +304,7 @@ export function HomePage({
 
           {/* Levi */}
           <div className="absolute top-[4%] left-[2%] w-[43%] aspect-[7/8] bg-[#2c3340] border-[4px] sm:border-[6px] border-white shadow-[0_16px_35px_rgba(0,0,0,0.7)] -rotate-[7deg] overflow-hidden z-10">
-            <img src="/images/Levi-home.png" alt="Levi Ackerman" className="w-full h-full object-cover object-top scale-105" />
+            <img src="/images/levi-home.png" alt="Levi Ackerman" className="w-full h-full object-cover object-top scale-105" />
           </div>
 
           {/* Kaca pembesar */}

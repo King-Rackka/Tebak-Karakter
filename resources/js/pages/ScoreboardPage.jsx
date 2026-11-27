@@ -440,7 +440,7 @@ const THEMES = {
   },
   mix: {
     title: 'Campur Semua',
-    background: null,
+    background: '/images/lobby-game/bg-mix.png',
     accent: '#9d7cff',
     border: '#5e4ea3',
     panel: '#18142e',

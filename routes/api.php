@@ -15,3 +15,9 @@ Route::post('/rooms/{code}/next-turn', [GameController::class, 'nextTurn']);
 Route::post('/rooms/{code}/next-round', [GameController::class, 'nextRound']);
 Route::post('/rooms/{code}/play-again', [GameController::class, 'playAgain']);
 Route::post('/rooms/{code}/leave', [GameController::class, 'leaveRoom']);
+
+Route::fallback(function () {
+    return response()->json([
+        'message' => 'Endpoint API tidak ditemukan.',
+    ], 404);
+});

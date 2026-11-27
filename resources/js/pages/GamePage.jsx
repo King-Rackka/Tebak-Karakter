@@ -17,6 +17,7 @@ import {
   AlertTriangle,
   UserCheck,
 } from 'lucide-react';
+import { GameLoadingScreen } from '../components/GameLoadingScreen';
 import { CardBackEmblem } from '../components/ThemePattern';
 import { getCharacterImageUrl } from '../utils/characterImage';
 
@@ -830,7 +831,6 @@ const palette = (theme) => ({
   '--gp-shade': theme.shade,
 });
 
-// Urutkan berdasarkan ID dulu agar identik di semua browser/akun, lalu acak per room & ronde
 function seededShufflePlayers(list, seedText) {
   let seed = 0;
   for (let i = 0; i < seedText.length; i++) {
@@ -881,22 +881,30 @@ export function GamePage({
   onNextTurn,
   loading,
 }) {
+  // 1. Deklarasi variabel utama lebih dulu sebelum seluruh hooks
+  const players = room?.players || [];
+  const roomCode =
+    room?.code ||
+    room?.roomCode ||
+    new URLSearchParams(window.location.search).get('room') ||
+    room?.id ||
+    'default';
+  const roundNum = room?.currentRound || 1;
+  const turnStorageKey = `tk_turn_step_${roomCode}_r${roundNum}`;
+
+  const themes = room?.settings?.themes ?? [];
+  const themeKey = themes.length === 1 ? normalize(themes[0]) : 'mix';
+  const theme = THEMES[themeKey];
+
+  // 2. Seluruh React Hooks ditempatkan di atas sebelum early return
   const [guess, setGuess] = useState('');
   const [localError, setLocalError] = useState('');
   const [confirmModal, setConfirmModal] = useState(null);
   const [submittingTurn, setSubmittingTurn] = useState(false);
+  const [assetsReady, setAssetsReady] = useState(false);
+  const [loadProgress, setLoadProgress] = useState(15);
   const logRef = useRef(null);
   const prevSelfStatusRef = useRef(null);
-
-  const players = room.players || [];
-  const roomCode =
-    room.code ||
-    room.roomCode ||
-    new URLSearchParams(window.location.search).get('room') ||
-    room.id ||
-    'default';
-  const roundNum = room.currentRound || 1;
-  const turnStorageKey = `tk_turn_step_${roomCode}_r${roundNum}`;
 
   const [localTurnStep, setLocalTurnStep] = useState(() => {
     try {
@@ -914,6 +922,141 @@ export function GamePage({
     }
   }, [turnStorageKey]);
 
+  // Preload background tema & seluruh foto karakter pemain lain sebelum arena tampil
+  useEffect(() => {
+    let cancelled = false;
+    setAssetsReady(false);
+    setLoadProgress(15);
+
+    const preloadRoundAssets = async () => {
+      const urls = [];
+      if (theme?.background) {
+        urls.push(theme.background);
+      }
+
+      const otherChars = (room?.players || [])
+        .filter((p) => !p.isSelf && p.roundState?.character)
+        .map((p) => p.roundState.character);
+
+      const resolvedUrls = await Promise.all(
+        otherChars.map(async (char) => {
+          if (char?.image) return char.image;
+          try {
+            return await getCharacterImageUrl(char);
+          } catch {
+            return null;
+          }
+        })
+      );
+
+      resolvedUrls.filter(Boolean).forEach((url) => urls.push(url));
+      const uniqueUrls = [...new Set(urls)];
+
+      if (uniqueUrls.length === 0) {
+        if (!cancelled) {
+          setLoadProgress(100);
+          setAssetsReady(true);
+        }
+        return;
+      }
+
+      let loaded = 0;
+      const stepProgress = () => {
+        loaded += 1;
+        if (!cancelled) {
+          setLoadProgress(Math.round(20 + (loaded / uniqueUrls.length) * 80));
+        }
+      };
+
+      await Promise.race([
+        Promise.all(
+          uniqueUrls.map(
+            (src) =>
+              new Promise((resolve) => {
+                const img = new Image();
+                img.referrerPolicy = 'no-referrer';
+                img.onload = () => {
+                  stepProgress();
+                  resolve();
+                };
+                img.onerror = () => {
+                  stepProgress();
+                  resolve();
+                };
+                img.src = src;
+              })
+          )
+        ),
+        new Promise((resolve) => setTimeout(resolve, 4000)),
+      ]);
+
+      if (!cancelled) {
+        setLoadProgress(100);
+        setAssetsReady(true);
+      }
+    };
+
+    preloadRoundAssets();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [roomCode, roundNum, theme?.background]);
+
+  const selfPlayer = players.find((p) => p.isSelf);
+  const selfState = selfPlayer?.roundState;
+  const selfCanStillPlay = selfState?.status === 'guessing';
+
+  const finishedCount = players.filter(
+    (p) => p.roundState && p.roundState.status !== 'guessing'
+  ).length;
+
+  const turnOrderedPlayers = useMemo(() => {
+    if (Array.isArray(room?.turnOrder) && room.turnOrder.length > 0) {
+      const byId = new Map(players.map((p) => [p.id, p]));
+      const ordered = room.turnOrder.map((id) => byId.get(id)).filter(Boolean);
+      const remaining = players.filter((p) => !room.turnOrder.includes(p.id));
+      return [...ordered, ...remaining];
+    }
+    return seededShufflePlayers(players, `${roomCode}-round-${roundNum}`);
+  }, [players, room?.turnOrder, roomCode, roundNum]);
+
+  const activePlayers = useMemo(
+    () =>
+      turnOrderedPlayers.filter(
+        (p) => !p.roundState || p.roundState.status === 'guessing'
+      ),
+    [turnOrderedPlayers]
+  );
+
+  useEffect(() => {
+    if (prevSelfStatusRef.current === 'guessing' && selfState?.status === 'correct') {
+      confetti({ particleCount: 75, spread: 70, origin: { y: 0.7 } });
+    }
+    prevSelfStatusRef.current = selfState?.status || null;
+  }, [selfState?.status]);
+
+  useEffect(() => {
+    if (logRef.current) logRef.current.scrollTop = logRef.current.scrollHeight;
+  }, [room?.logs?.length]);
+
+  useEffect(() => {
+    setGuess('');
+    setLocalError('');
+    setConfirmModal(null);
+  }, [roundNum]);
+
+  // 3. Early return loading hanya setelah seluruh hooks dieksekusi
+  if (!assetsReady) {
+    return (
+      <GameLoadingScreen
+        title={`Memuat Ronde ${roundNum}...`}
+        subtitle="Menyiapkan potret karakter dan latar arena agar tampil bersamaan."
+        progress={loadProgress}
+      />
+    );
+  }
+
   const updateLocalTurnStep = (updater) => {
     setLocalTurnStep((prev) => {
       const next = typeof updater === 'function' ? updater(prev) : updater;
@@ -926,34 +1069,6 @@ export function GamePage({
     });
   };
 
-  const selfPlayer = players.find((p) => p.isSelf);
-  const selfState = selfPlayer?.roundState;
-  const selfCanStillPlay = selfState?.status === 'guessing';
-
-  const finishedCount = players.filter(
-    (p) => p.roundState && p.roundState.status !== 'guessing'
-  ).length;
-
-  // Urutan giliran acak per room & ronde (sama di semua akun & konsisten sepanjang ronde)
-  const turnOrderedPlayers = useMemo(() => {
-    if (Array.isArray(room.turnOrder) && room.turnOrder.length > 0) {
-      const byId = new Map(players.map((p) => [p.id, p]));
-      const ordered = room.turnOrder.map((id) => byId.get(id)).filter(Boolean);
-      const remaining = players.filter((p) => !room.turnOrder.includes(p.id));
-      return [...ordered, ...remaining];
-    }
-    return seededShufflePlayers(players, `${roomCode}-round-${roundNum}`);
-  }, [players, room.turnOrder, roomCode, roundNum]);
-
-  const activePlayers = useMemo(
-    () =>
-      turnOrderedPlayers.filter(
-        (p) => !p.roundState || p.roundState.status === 'guessing'
-      ),
-    [turnOrderedPlayers]
-  );
-
-  // Gunakan state giliran dari server jika ada; jika belum, hitung dari log aksi + step lokal persisten
   const serverTurnPlayerId =
     room.currentTurnPlayerId ??
     room.turnPlayerId ??
@@ -974,32 +1089,11 @@ export function GamePage({
       (!activeTurnPlayerId || activeTurnPlayerId === selfPlayer?.id)
   );
 
-  const themes = room.settings.themes ?? [];
-  const themeKey = themes.length === 1 ? normalize(themes[0]) : 'mix';
-  const theme = THEMES[themeKey];
-
-  const totalRounds = Math.max(1, room.settings.rounds || 1);
+  const totalRounds = Math.max(1, room.settings?.rounds || 1);
   const progressPercent = Math.min(
     100,
     Math.round((roundNum / totalRounds) * 100)
   );
-
-  useEffect(() => {
-    if (prevSelfStatusRef.current === 'guessing' && selfState?.status === 'correct') {
-      confetti({ particleCount: 75, spread: 70, origin: { y: 0.7 } });
-    }
-    prevSelfStatusRef.current = selfState?.status || null;
-  }, [selfState?.status]);
-
-  useEffect(() => {
-    if (logRef.current) logRef.current.scrollTop = logRef.current.scrollHeight;
-  }, [room.logs?.length]);
-
-  useEffect(() => {
-    setGuess('');
-    setLocalError('');
-    setConfirmModal(null);
-  }, [roundNum]);
 
   const advanceTurn = async () => {
     setLocalError('');
@@ -1093,7 +1187,7 @@ export function GamePage({
               <div className="gp-round-top">
                 <span>Ronde</span>
                 <b>
-                  {roundNum} / {room.settings.rounds}
+                  {roundNum} / {room.settings?.rounds}
                 </b>
               </div>
               <div className="gp-progress-track" aria-hidden="true">

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
     api,
     getPlayerId,
@@ -7,6 +7,8 @@ import {
     saveNickname,
     saveRoomCode,
 } from './lib/api';
+import { GameLoadingScreen } from './components/GameLoadingScreen';
+import { NotFoundPage } from './pages/NotFoundPage';
 import { ThemePattern } from './components/ThemePattern';
 import { HowToPlayModal } from './components/HowToPlayModal';
 import { HomePage } from './pages/HomePage';
@@ -17,6 +19,9 @@ import { RoundResultPage } from './pages/RoundResultPage';
 import { ScoreboardPage } from './pages/ScoreboardPage';
 
 export default function MainApp() {
+    const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
+    const isNotFound = currentPath !== '/';
+
     const playerId = useMemo(() => getPlayerId(), []);
     const [nickname, setNickname] = useState(() => getSavedNickname());
     const [screen, setScreen] = useState('home'); // home | setup | room
@@ -27,33 +32,79 @@ export default function MainApp() {
     const [reconnecting, setReconnecting] = useState(false);
     const [howToPlayOpen, setHowToPlayOpen] = useState(false);
 
+    // Overlay loading khusus transisi halaman & inisialisasi awal
+    const [transitionLoading, setTransitionLoading] = useState({
+        active: !isNotFound,
+        title: 'Menyiapkan Arena...',
+        subtitle: 'Memuat tema permainan dan memeriksa sesi aktif.',
+    });
+
+    const mountedRef = useRef(true);
+    useEffect(() => {
+        mountedRef.current = true;
+        return () => {
+            mountedRef.current = false;
+        };
+    }, []);
+
+    const withTransition = useCallback(async (title, subtitle, task, minDelayMs = 380) => {
+        if (mountedRef.current) {
+            setTransitionLoading({ active: true, title, subtitle });
+        }
+        try {
+            const [result] = await Promise.all([
+                typeof task === 'function' ? task() : Promise.resolve(),
+                new Promise((resolve) => setTimeout(resolve, minDelayMs)),
+            ]);
+            return result;
+        } finally {
+            if (mountedRef.current) {
+                setTransitionLoading((prev) => ({ ...prev, active: false }));
+            }
+        }
+    }, []);
+
     // Read ?room=CODE from URL if shared via link
     const urlRoomCode = useMemo(() => {
         const params = new URLSearchParams(window.location.search);
         return (params.get('room') || '').trim().toUpperCase();
     }, []);
 
-    // Load themes summary once
+    // Load themes summary & auto-reconnect saat pertama kali dibuka / di-refresh
     useEffect(() => {
-        api.getThemes()
-            .then((res) => setThemes(res.themes || []))
-            .catch(() => {});
-    }, []);
+        if (isNotFound) return;
 
-    // Auto-reconnect to active room if tab was refreshed/reopened (PRD 8.1)
-    useEffect(() => {
-        const savedCode = getSavedRoomCode();
-        if (!savedCode) return;
+        withTransition(
+            'Menyiapkan Arena...',
+            'Memuat tema permainan dan memeriksa sesi room aktif.',
+            async () => {
+                const themesPromise = api
+                    .getThemes()
+                    .then((res) => {
+                        if (mountedRef.current) setThemes(res.themes || []);
+                    })
+                    .catch(() => {});
 
-        api.getState(savedCode, playerId)
-            .then((res) => {
-                setRoom(res.room);
-                setScreen('room');
-            })
-            .catch(() => {
-                saveRoomCode('');
-            });
-    }, [playerId]);
+                const savedCode = getSavedRoomCode();
+                const reconnectPromise = savedCode
+                    ? api
+                          .getState(savedCode, playerId)
+                          .then((res) => {
+                              if (mountedRef.current && res?.room) {
+                                  setRoom(res.room);
+                                  setScreen('room');
+                              }
+                          })
+                          .catch(() => {
+                              saveRoomCode('');
+                          })
+                    : Promise.resolve();
+
+                await Promise.all([themesPromise, reconnectPromise]);
+            },
+            420
+        );
+    }, [isNotFound, playerId, withTransition]);
 
     // Apply visual theme based on current screen & room settings (PRD 9.3)
     const activeTheme = useMemo(() => {
@@ -75,7 +126,7 @@ export default function MainApp() {
 
     // Real-time room sync (< 1 second latency, PRD 8.2)
     useEffect(() => {
-        if (screen !== 'room' || !room?.code) return;
+        if (isNotFound || screen !== 'room' || !room?.code) return;
 
         let active = true;
         const poll = async () => {
@@ -113,25 +164,55 @@ export default function MainApp() {
             clearInterval(timer);
             document.removeEventListener('visibilitychange', onVisible);
         };
-    }, [screen, room?.code, playerId]);
+    }, [isNotFound, screen, room?.code, playerId]);
 
     const handleNicknameChange = useCallback((val) => {
         setNickname(val);
         saveNickname(val);
     }, []);
 
+    const handleGoSetup = useCallback(() => {
+        setError('');
+        withTransition(
+            'Menyiapkan Pengaturan Room...',
+            'Memuat daftar tema karakter dan konfigurasi permainan.',
+            () => {
+                setScreen('setup');
+            },
+            320
+        );
+    }, [withTransition]);
+
+    const handleBackHome = useCallback(() => {
+        setError('');
+        withTransition(
+            'Kembali ke Beranda...',
+            'Memuat halaman utama permainan.',
+            () => {
+                setScreen('home');
+            },
+            250
+        );
+    }, [withTransition]);
+
     const handleCreateRoom = async (settings) => {
         setLoading(true);
         setError('');
         try {
-            const res = await api.createRoom({
-                playerId,
-                nickname: nickname.trim(),
-                settings,
-            });
-            setRoom(res.room);
-            saveRoomCode(res.room.code);
-            setScreen('room');
+            await withTransition(
+                'Membuat Room...',
+                'Mendaftarkan room baru dan menyiapkan kode undangan.',
+                async () => {
+                    const res = await api.createRoom({
+                        playerId,
+                        nickname: nickname.trim(),
+                        settings,
+                    });
+                    setRoom(res.room);
+                    saveRoomCode(res.room.code);
+                    setScreen('room');
+                }
+            );
         } catch (err) {
             setError(err.message);
         } finally {
@@ -143,13 +224,19 @@ export default function MainApp() {
         setLoading(true);
         setError('');
         try {
-            const res = await api.joinRoom(code, {
-                playerId,
-                nickname: nickname.trim(),
-            });
-            setRoom(res.room);
-            saveRoomCode(res.room.code);
-            setScreen('room');
+            await withTransition(
+                `Masuk ke Room ${String(code || '').toUpperCase()}...`,
+                'Menyinkronkan daftar pemain di lobby.',
+                async () => {
+                    const res = await api.joinRoom(code, {
+                        playerId,
+                        nickname: nickname.trim(),
+                    });
+                    setRoom(res.room);
+                    saveRoomCode(res.room.code);
+                    setScreen('room');
+                }
+            );
         } catch (err) {
             setError(err.message);
         } finally {
@@ -176,8 +263,14 @@ export default function MainApp() {
         setLoading(true);
         setError('');
         try {
-            const res = await api.startGame(room.code, playerId);
-            setRoom(res.room);
+            await withTransition(
+                'Mengacak Karakter...',
+                'Membagikan karakter rahasia dan menentukan urutan giliran.',
+                async () => {
+                    const res = await api.startGame(room.code, playerId);
+                    setRoom(res.room);
+                }
+            );
         } catch (err) {
             setError(err.message);
         } finally {
@@ -211,8 +304,17 @@ export default function MainApp() {
         if (!room) return;
         setLoading(true);
         try {
-            const res = await api.nextRound(room.code, playerId);
-            setRoom(res.room);
+            const isLastRound = room.currentRound >= (room.settings?.rounds || 1);
+            await withTransition(
+                isLastRound ? 'Menghitung Skor Akhir...' : `Menyiapkan Ronde ${room.currentRound + 1}...`,
+                isLastRound
+                    ? 'Menyusun klasemen akhir seluruh pemain.'
+                    : 'Mengacak karakter baru untuk ronde berikutnya.',
+                async () => {
+                    const res = await api.nextRound(room.code, playerId);
+                    setRoom(res.room);
+                }
+            );
         } finally {
             setLoading(false);
         }
@@ -222,25 +324,56 @@ export default function MainApp() {
         if (!room) return;
         setLoading(true);
         try {
-            const res = await api.playAgain(room.code, playerId);
-            setRoom(res.room);
+            await withTransition(
+                'Kembali ke Lobby...',
+                'Mereset skor untuk pertandingan ulang.',
+                async () => {
+                    const res = await api.playAgain(room.code, playerId);
+                    setRoom(res.room);
+                }
+            );
         } finally {
             setLoading(false);
         }
     };
 
     const handleLeave = async () => {
-        if (room?.code) {
-            await api.leaveRoom(room.code, playerId).catch(() => {});
-        }
-        saveRoomCode('');
-        setRoom(null);
-        setError('');
-        setScreen('home');
+        await withTransition(
+            'Keluar dari Room...',
+            'Membersihkan sesi dan kembali ke beranda.',
+            async () => {
+                if (room?.code) {
+                    await api.leaveRoom(room.code, playerId).catch(() => {});
+                }
+                saveRoomCode('');
+                setRoom(null);
+                setError('');
+                setScreen('home');
+            },
+            300
+        );
     };
+
+    if (isNotFound) {
+        return (
+            <NotFoundPage
+                onGoHome={() => {
+                    window.history.pushState({}, '', '/');
+                    window.location.reload();
+                }}
+            />
+        );
+    }
 
     return (
         <div className="min-h-screen relative">
+            {transitionLoading.active && (
+                <GameLoadingScreen
+                    title={transitionLoading.title}
+                    subtitle={transitionLoading.subtitle}
+                />
+            )}
+
             <ThemePattern theme={activeTheme} />
 
             {reconnecting && screen === 'room' && (
@@ -254,10 +387,7 @@ export default function MainApp() {
                     nickname={nickname}
                     onNicknameChange={handleNicknameChange}
                     initialCode={urlRoomCode}
-                    onGoSetup={() => {
-                        setError('');
-                        setScreen('setup');
-                    }}
+                    onGoSetup={handleGoSetup}
                     onJoinRoom={handleJoinRoom}
                     onOpenHowToPlay={() => setHowToPlayOpen(true)}
                     loading={loading}
@@ -269,10 +399,7 @@ export default function MainApp() {
                 <SetupRoomPage
                     themes={themes}
                     nickname={nickname}
-                    onBack={() => {
-                        setError('');
-                        setScreen('home');
-                    }}
+                    onBack={handleBackHome}
                     onCreateRoom={handleCreateRoom}
                     loading={loading}
                     error={error}

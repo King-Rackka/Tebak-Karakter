@@ -9,6 +9,7 @@ import {
   Sparkles,
   Award,
 } from 'lucide-react';
+import { GameLoadingScreen } from '../components/GameLoadingScreen';
 import { CardBackEmblem } from '../components/ThemePattern';
 import { getCharacterImageUrl } from '../utils/characterImage';
 
@@ -499,7 +500,7 @@ const THEMES = {
   },
   mix: {
     title: 'Campur Semua',
-    background: null,
+    background: '/images/lobby-game/bg-mix.png',
     accent: '#9d7cff',
     border: '#5e4ea3',
     panel: '#18142e',
@@ -535,6 +536,74 @@ export function RoundResultPage({ room, onNextRound, loading }) {
   const themes = room.settings?.themes ?? [];
   const themeKey = themes.length === 1 ? normalize(themes[0]) : 'mix';
   const theme = THEMES[themeKey];
+
+  const [assetsReady, setAssetsReady] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    setAssetsReady(false);
+
+    const preloadResultImages = async () => {
+      const urls = [];
+      if (theme?.background) urls.push(theme.background);
+
+      const resolved = await Promise.all(
+        results.map(async (row) => {
+          if (row.characterImage) return row.characterImage;
+          try {
+            return await getCharacterImageUrl({
+              id: row.characterId,
+              name: row.characterName,
+              anime: row.characterAnime,
+            });
+          } catch {
+            return null;
+          }
+        })
+      );
+
+      resolved.filter(Boolean).forEach((u) => urls.push(u));
+      const uniqueUrls = [...new Set(urls)];
+
+      if (uniqueUrls.length === 0) {
+        if (!cancelled) setAssetsReady(true);
+        return;
+      }
+
+      await Promise.race([
+        Promise.all(
+          uniqueUrls.map(
+            (src) =>
+              new Promise((resolve) => {
+                const img = new Image();
+                img.referrerPolicy = 'no-referrer';
+                img.onload = resolve;
+                img.onerror = resolve;
+                img.src = src;
+              })
+          )
+        ),
+        new Promise((resolve) => setTimeout(resolve, 3500)),
+      ]);
+
+      if (!cancelled) setAssetsReady(true);
+    };
+
+    preloadResultImages();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [room.code, room.currentRound, theme?.background]);
+
+  if (!assetsReady) {
+    return (
+      <GameLoadingScreen
+        title={`Membuka Hasil Ronde ${room.currentRound}...`}
+        subtitle="Menyiapkan potret seluruh karakter rahasia dan rekap skor."
+      />
+    );
+  }
 
   const totalRounds = Math.max(1, room.settings?.rounds || 1);
   const progressPercent = Math.min(
