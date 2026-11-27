@@ -838,7 +838,7 @@ class RoomService
 
     private function normalizeSettings(array $settings): array
     {
-        $maxPlayers = max(2, min(8, (int) ($settings['maxPlayers'] ?? 6)));
+        $maxPlayers = max(2, min(10, (int) ($settings['maxPlayers'] ?? 6)));
         $rounds = max(1, min(10, (int) ($settings['rounds'] ?? 5)));
 
         $validDifficulties = ['easy', 'medium', 'hard'];

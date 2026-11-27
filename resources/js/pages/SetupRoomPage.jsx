@@ -849,7 +849,7 @@ export function SetupRoomPage({
             </h3>
             <ul className="space-y-2.5 text-sm text-gray-300">
               <li className="bg-[#1e1a38] p-3 rounded-xl border border-[#2f2857]">
-                <strong className="text-white">1. Atur Pemain & Ronde:</strong> Tentukan maksimal pemain (2–8) dan jumlah ronde permainan.
+                <strong className="text-white">1. Atur Pemain & Ronde:</strong> Tentukan maksimal pemain (2–10) dan jumlah ronde permainan.
               </li>
               <li className="bg-[#1e1a38] p-3 rounded-xl border border-[#2f2857]">
                 <strong className="text-white">2. Pilih Tingkat Kesulitan:</strong> Kamu bisa mengaktifkan lebih dari satu tingkat kesulitan sekaligus.

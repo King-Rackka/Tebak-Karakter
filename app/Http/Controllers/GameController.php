@@ -28,7 +28,7 @@ class GameController extends Controller
             'playerId' => ['required', 'string', 'max:64'],
             'nickname' => ['required', 'string', 'min:1', 'max:20'],
             'settings' => ['required', 'array'],
-            'settings.maxPlayers' => ['integer', 'min:2', 'max:8'],
+            'settings.maxPlayers' => ['integer', 'min:2', 'max:10'],
             'settings.rounds' => ['integer', 'min:1', 'max:10'],
             'settings.difficulties' => ['array', 'min:1'],
             'settings.themes' => ['array', 'min:1'],
