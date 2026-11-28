@@ -30,7 +30,7 @@
 
   <br><br>
 
-  <img src="public/images/lobby-game/bg-mix.png" width="100%" alt="Anime Multiverse">
+  <img src="public/images/seo-banner.png" width="100%" alt="Anime Multiverse">
 
   <br><br>
 
@@ -88,43 +88,15 @@ Setiap tema memiliki koleksi karakter, background, warna, dan identitas visual t
       <p>Shinobi, Akatsuki & Five Great Nations</p>
     </td>
     <td width="33%" align="center">
-      <img src="public/images/setup/mix-card.png" width="100%" alt="Mix All">
-      <h3>Mix Semua</h3>
-      <p>321 Characters</p>
-      <p>Explore the Anime Multiverse</p>
+      <img src="public/images/setup/onepiece-card.jpg" width="100%" alt="Mix All">
+      <h3>One Piece</h3>
+      <p>366 Characters</p>
+      <p>Pirates, Marines & Revolutionaries</p>
     </td>
   </tr>
 </table>
 
-<div align="center">
 
-| Total Anime Collections | Total Characters | Difficulty Levels |
-| :---: | :---: | :---: |
-| **2** | **321** | **3** |
-
-</div>
-
-*Jumlah karakter merupakan total dataset sebelum filter difficulty dan spoiler.*
-
-More anime collections coming soon!
-
-## 🎨 Theme Artwork
-
-Setiap tema memberikan pengalaman visual yang berbeda selama permainan.
-
-### Attack on Titan
-
-<img src="public/images/lobby-game/bg-aot.png" width="100%" alt="Attack on Titan Background">
-
-### Naruto Shippuden
-
-<img src="public/images/lobby-game/bg-naruto.png" width="100%" alt="Naruto Background">
-
-### Anime Multiverse
-
-<img src="public/images/lobby-game/bg-mix.png" width="100%" alt="Mix Background">
-
-*Images above represent theme artwork, not gameplay screenshots.*
 
 ## 🕹️ How to Play
 

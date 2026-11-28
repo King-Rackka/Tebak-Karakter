@@ -586,6 +586,18 @@ const GAME_STYLES = `
   gap: 8px;
   flex-shrink: 0;
 }
+.gp-potential-score { color: var(--gp-accent); border-color: var(--gp-accent); }
+.gp-potential-score strong { font-family: 'Fredoka', sans-serif; white-space: nowrap; }
+.gp-final-chance {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 12px 14px; margin-bottom: 14px; border-radius: 12px;
+  border: 1px solid var(--gp-accent);
+  background: color-mix(in srgb, var(--gp-accent) 12%, transparent);
+  color: var(--gp-accent);
+}
+.gp-final-chance > div { flex: 1; min-width: 140px; }
+.gp-final-chance p { margin: 4px 0 0; font-size: 12px; color: var(--gp-ink); }
+.gp-final-chance b { white-space: nowrap; font-family: 'Fredoka', sans-serif; }
 .gp-error { color: #fca5a5; font-size: 13px; margin: 0 0 8px; font-weight: 600; }
 
 .gp-log {
@@ -772,9 +784,71 @@ const GAME_STYLES = `
   .gp-form { flex-direction: column; gap: 8px; }
   .gp-form input { min-width: 0; width: 100%; }
   .gp-action-group { width: 100%; display: grid; grid-template-columns: 1fr 1fr; }
+  .gp-action-group.gp-final-actions { grid-template-columns: 1fr; }
   .gp-primary, .gp-next-turn-btn { padding: 9px 12px; min-height: 42px; font-size: 13px; width: 100%; }
   .gp-page::before { background-position: 60% center; }
 }
+
+/* Responsive card layout: identity left, compact status right. */
+.gp-cards {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  width: 100%;
+  max-width: calc(var(--gp-player-count, 4) * 300px + (var(--gp-player-count, 4) - 1) * 14px);
+  margin-inline: auto;
+}
+.gp-card { gap: 10px; min-height: 290px; align-self: stretch; }
+.gp-card-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 8px; }
+.gp-card { container-type: inline-size; }
+.gp-player strong { line-height: 1.4; }
+.gp-player strong span { min-width: 0; overflow-wrap: anywhere; word-break: normal; }
+.gp-player small { line-height: 1.4; }
+.gp-head-right { flex-direction: column; align-items: flex-end; justify-content: flex-start; min-width: 0; gap: 5px; }
+.gp-head-right .gp-status, .gp-head-right .gp-turn-pill { white-space: nowrap; }
+.gp-earned-points { color: #86efac; font-size: 12px; font-weight: 800; line-height: 1.3; white-space: nowrap; }
+@container (max-width: 190px) {
+  .gp-card-head { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .gp-head-right { flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: flex-end; }
+}
+.gp-status { max-width: 100%; flex-wrap: wrap; flex-shrink: 1; gap: 5px; line-height: 1.4; }
+.gp-status svg, .gp-turn-pill svg, .gp-hud-chip svg { flex-shrink: 0; }
+.gp-status b { white-space: nowrap; }
+.gp-portrait-frame, .gp-mystery-box { width: var(--gp-portrait-size); height: var(--gp-portrait-size); max-width: 100%; aspect-ratio: 1; flex: none; overflow: hidden; }
+.gp-card { --gp-portrait-size: 156px; }
+.gp-portrait-frame { position: relative; }
+.gp-portrait-frame > .gp-portrait-img, .gp-portrait-frame > .gp-portrait-fallback { position: absolute; inset: 3.5px; width: calc(100% - 7px); height: calc(100% - 7px); min-height: 0; max-height: 100%; object-fit: cover; object-position: top center; }
+.gp-character { min-width: 0; min-height: 0; }
+.gp-character strong { max-width: 100%; font-size: clamp(17px, 1.7vw, 24px); }
+.gp-navbar { grid-template-columns: auto minmax(0, 1fr) auto; }
+.gp-hud-center, .gp-brand-text { min-width: 0; }
+.gp-hud-chip { min-width: 0; flex-wrap: wrap; }
+.gp-guess-head > span { flex: 1 1 200px; min-width: 0; overflow-wrap: anywhere; }
+.gp-form input { min-width: 0; }
+.gp-final-chance { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; }
+.gp-final-chance > div { min-width: 0; }
+.gp-final-chance p { line-height: 1.5; }
+@media (max-width: 1023px) {
+  .gp-navbar { grid-template-columns: minmax(0, 1fr) auto; }
+  .gp-brand { grid-column: 1; grid-row: 1; }
+  .gp-leave-btn { grid-column: 2; grid-row: 1; }
+  .gp-hud-center { grid-column: 1 / -1; grid-row: 2; }
+}
+@media (max-width: 639px) {
+  .gp-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gp-card { min-height: 235px; gap: 8px; }
+  .gp-player strong { font-size: 13px; }
+  .gp-status, .gp-turn-pill { font-size: 10px; padding: 4px 7px; }
+  .gp-card { --gp-portrait-size: 114px; }
+  .gp-final-chance { grid-template-columns: auto minmax(0, 1fr); gap: 8px; }
+  .gp-final-chance b { grid-column: 2; }
+  .gp-hud-center { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gp-time-chip { grid-column: 1 / -1; }
+  .gp-action-group { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gp-next-turn-btn, .gp-primary { white-space: normal; }
+}
+@media (max-width: 340px) {
+  .gp-cards { grid-template-columns: minmax(0, 1fr); }
+}
+
 `;
 
 const THEMES = {
@@ -932,6 +1006,11 @@ export function GamePage({
   const logRef = useRef(null);
   const prevSelfStatusRef = useRef(null);
 
+  const correctCount = room?.correctCount ?? players.filter(p => p.roundState?.status === 'correct').length;
+  const activePlayerCount = room?.activePlayerCount ?? players.filter(p => p.roundState?.status === 'guessing').length;
+  const basePoints = room?.nextCorrectPoints ?? Math.max(50, 100 - correctCount * 10);
+  const isFinalChance = room?.isFinalChance ?? (room?.status === 'playing' && activePlayerCount === 1);
+
   const [localTurnStep, setLocalTurnStep] = useState(() => {
     try {
       return Number(localStorage.getItem(turnStorageKey) || 0);
@@ -1031,6 +1110,11 @@ export function GamePage({
 
   const selfPlayer = players.find((p) => p.isSelf);
   const selfState = selfPlayer?.roundState;
+  const wrongGuesses = Math.max(0, 3 - (selfState?.attemptsLeft ?? 3));
+  const nextCorrectPoints = selfState?.potentialPoints ?? (
+    selfState?.status === 'correct' ? (selfState.roundScore ?? 0) :
+    selfState?.status === 'guessing' ? Math.max(0, basePoints - wrongGuesses * 10) : 0
+  );
   const selfCanStillPlay = selfState?.status === 'guessing';
 
   const finishedCount = players.filter(
@@ -1122,6 +1206,7 @@ export function GamePage({
   );
 
   const advanceTurn = async () => {
+    if (isFinalChance || !isMyTurn || loading || submittingTurn) return;
     setLocalError('');
     if (typeof onNextTurn === 'function') {
       try {
@@ -1230,6 +1315,12 @@ export function GamePage({
               <strong>{selfPlayer?.score ?? 0}</strong>
             </div>
 
+            <div className="gp-hud-chip gp-potential-score">
+              <Trophy size={15} />
+              <span>{selfState?.status === 'guessing' ? 'Potensi:' : 'Poin ronde:'}</span>
+              <strong>{nextCorrectPoints} PTS</strong>
+            </div>
+
             <div className="gp-hud-chip gp-time-chip">
               <InfinityIcon size={16} />
               <span>Bebas</span>
@@ -1251,7 +1342,7 @@ export function GamePage({
 
         <div className="gp-layout">
           <section className="gp-play">
-            <div className="gp-cards">
+            <div className="gp-cards" style={{ '--gp-player-count': Math.max(1, Math.min(players.length, 4)) }}>
               {turnOrderedPlayers.map((p) => {
                 const rs = p.roundState;
                 const character = p.isSelf ? null : rs?.character;
@@ -1296,9 +1387,13 @@ export function GamePage({
 
                       <div className="gp-head-right">
                         {status === 'correct' ? (
-                          <span className="gp-status gp-correct">
-                            <CheckCircle2 size={13} /> Benar!
-                          </span>
+                          <>
+                            <span className="gp-status gp-correct">
+                              <CheckCircle2 size={13} />
+                              <span>{rs?.finishRank ? `#${rs.finishRank} Benar` : 'Benar!'}</span>
+                            </span>
+                            <span className="gp-earned-points">+{rs?.roundScore ?? 0} PTS</span>
+                          </>
                         ) : status === 'failed' ? (
                           <span className="gp-status gp-failed">
                             <XCircle size={13} /> Habis
@@ -1352,6 +1447,16 @@ export function GamePage({
             </div>
 
             <section className="gp-panel gp-guess">
+              {isFinalChance && selfCanStillPlay && (
+                <div className="gp-final-chance">
+                  <Flag size={22} />
+                  <div>
+                    <strong>FINAL CHANCE</strong>
+                    <p>Kamu pemain terakhir! Gunakan sisa {selfState?.attemptsLeft ?? 0} nyawamu tanpa batas waktu. Setiap tebakan salah mengurangi 10 poin.</p>
+                  </div>
+                  <b>{nextCorrectPoints} PTS</b>
+                </div>
+              )}
               <div className="gp-guess-head">
                 <span
                   className={`gp-turn-status-text ${
@@ -1362,6 +1467,8 @@ export function GamePage({
                     ? `Hebat! Kamu sudah menebak benar (+${selfState.roundScore} poin). Menunggu pemain lain...`
                     : selfState?.status === 'failed'
                     ? 'Kesempatan menebakmu habis. Menunggu pemain lain...'
+                    : isFinalChance && selfCanStillPlay
+                    ? 'Kesempatan terakhir! Tebak karakter atau menyerah.'
                     : isMyTurn
                     ? `Giliranmu sekarang! Tebak karakter atau lanjut ke pemain berikutnya (sisa ${
                         selfState?.attemptsLeft ?? 0
@@ -1410,7 +1517,7 @@ export function GamePage({
                   }
                 />
 
-                <div className="gp-action-group">
+                <div className={`gp-action-group ${isFinalChance ? 'gp-final-actions' : ''}`}>
                   <button
                     type="submit"
                     className="gp-primary"
@@ -1419,6 +1526,7 @@ export function GamePage({
                     <Send size={16} /> Kirim
                   </button>
 
+                  {!isFinalChance && (
                   <button
                     type="button"
                     className="gp-next-turn-btn"
@@ -1428,6 +1536,7 @@ export function GamePage({
                   >
                     <ArrowRightCircle size={16} /> Next Player
                   </button>
+                  )}
                 </div>
               </form>
             </section>

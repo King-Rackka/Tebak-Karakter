@@ -9,6 +9,9 @@ use RuntimeException;
 
 class RoomService
 {
+    private const MAX_ATTEMPTS = 3;
+    private const WRONG_GUESS_PENALTY = 10;
+
     private const CACHE_PREFIX = 'tebak_room:';
     private const ROOM_TTL_SECONDS = 14400; // 4 jam
     private const DISCONNECT_THRESHOLD_SECONDS = 45;
@@ -242,11 +245,14 @@ class RoomService
             $attemptsLeft = $player['roundState']['attemptsLeft'];
 
             if ($isCorrect) {
-                $points = match ($attemptsLeft) {
-                    3 => 100,
-                    2 => 60,
-                    default => 30,
-                };
+                $correctCount = $room['correctCount'] ?? 0;
+
+                $points = $this->potentialPoints($correctCount, $attemptsLeft);
+
+                $room['correctCount'] = $correctCount + 1;
+
+                $room['players'][$playerId]['roundState']['finishRank']
+                    = $correctCount + 1;
 
                 $room['players'][$playerId]['score'] += $points;
                 $room['players'][$playerId]['roundState']['status'] = 'correct';
@@ -273,7 +279,7 @@ class RoomService
                     'id' => Str::uuid()->toString(),
                     'playerId' => $playerId,
                     'playerName' => $player['name'],
-                    'text' => "{$player['name']} menebak \"{$guess}\": salah (sisa {$attemptsLeft})",
+                    'text' => "{$player['name']} menebak \"{$guess}\": salah (sisa {$attemptsLeft} nyawa, -10 potensi poin)",
                     'type' => 'wrong',
                     'timestamp' => now()->timestamp,
                 ];
@@ -316,6 +322,18 @@ class RoomService
             $this->ensureTurnConsistency($room);
             if (($room['currentTurnPlayerId'] ?? null) !== $playerId) {
                 throw new RuntimeException('Bukan giliranmu saat ini.');
+            }
+
+            $activePlayers = array_filter(
+                $room['players'],
+                fn ($player) =>
+                    ($player['roundState']['status'] ?? null) === 'guessing'
+            );
+
+            if (count($activePlayers) <= 1) {
+                throw new RuntimeException(
+                    'Kamu adalah pemain terakhir. Silakan menebak atau menyerah.'
+                );
             }
 
             $name = $room['players'][$playerId]['name'] ?? 'Pemain';
@@ -564,6 +582,7 @@ class RoomService
         shuffle($turnOrder);
 
         $room['currentRound']++;
+        $room['correctCount'] = 0;
         $room['status'] = 'playing';
         $room['roundStartedAt'] = now()->timestamp;
         $room['roundEndsAt'] = null;
@@ -580,10 +599,11 @@ class RoomService
                 'characterId' => $char['id'],
                 'characterName' => $char['name'],
                 'characterAnime' => $char['anime'],
-                'attemptsLeft' => 3,
+                'attemptsLeft' => self::MAX_ATTEMPTS,
                 'status' => 'guessing',
                 'roundScore' => 0,
                 'guessedAt' => null,
+                'finishRank' => null,
             ];
         }
         unset($player);
@@ -713,7 +733,8 @@ class RoomService
                 'characterName' => $rs['characterName'],
                 'characterAnime' => $rs['characterAnime'],
                 'status' => $rs['status'],
-                'attemptsUsed' => 3 - $rs['attemptsLeft'],
+                'finishRank' => $rs['finishRank'] ?? null,
+                'attemptsUsed' => self::MAX_ATTEMPTS - $rs['attemptsLeft'],
                 'roundScore' => $rs['roundScore'],
                 'totalScore' => $player['score'],
             ];
@@ -780,6 +801,18 @@ class RoomService
      *
      * @return array<string, mixed>
      */
+    private function potentialPoints(int $correctCount, int $attemptsLeft): int
+    {
+        if ($attemptsLeft <= 0) {
+            return 0;
+        }
+
+        $base = max(50, 100 - ($correctCount * 10));
+        $wrongGuesses = max(0, self::MAX_ATTEMPTS - $attemptsLeft);
+
+        return max(0, $base - ($wrongGuesses * self::WRONG_GUESS_PENALTY));
+    }
+
     private function sanitizeForPlayer(array $room, string $viewerId): array
     {
         $isRevealed = in_array($room['status'], ['round_result', 'finished'], true);
@@ -813,9 +846,25 @@ class RoomService
                     'attemptsLeft' => $rs['attemptsLeft'],
                     'status' => $rs['status'],
                     'roundScore' => $rs['roundScore'],
+                    'finishRank' => $rs['finishRank'] ?? null,
+                    'potentialPoints' => $rs['status'] === 'guessing'
+                        ? $this->potentialPoints($room['correctCount'] ?? 0, $rs['attemptsLeft'])
+                        : ($rs['status'] === 'correct' ? $rs['roundScore'] : 0),
                 ] : null,
             ];
         }
+
+        $activePlayers = array_filter(
+            $room['players'],
+            fn ($player) =>
+                ($player['roundState']['status'] ?? null) === 'guessing'
+        );
+
+        $correctCount = $room['correctCount'] ?? 0;
+
+        $isFinalChance =
+            $room['status'] === 'playing'
+            && count($activePlayers) === 1;
 
         return [
             'code' => $room['code'],
@@ -833,6 +882,10 @@ class RoomService
             'logs' => array_slice($room['logs'], -30),
             'roundResults' => $room['roundResults'],
             'version' => $room['version'],
+            'correctCount' => $correctCount,
+            'activePlayerCount' => count($activePlayers),
+            'nextCorrectPoints' => max(50, 100 - ($correctCount * 10)),
+            'isFinalChance' => $isFinalChance,
         ];
     }
 
